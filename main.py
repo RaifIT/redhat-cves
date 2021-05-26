@@ -26,10 +26,10 @@ def get_cves_between(start_date, end_date):
     return response.content
 
 
-'''Write a python dictionary to a CSV file named cves.csv'''
-def write_dict_list_to_csv(dict_list):
+'''Write a python dictionary to a CSV file named name.csv'''
+def write_dict_list_to_csv(dict_list, name):
     keys = dict_list[0].keys()
-    with open('cves.csv', 'w', newline='')  as output_file:
+    with open(name+'.csv', 'w', newline='')  as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
         dict_writer.writerows(dict_list)
@@ -94,7 +94,7 @@ def test():
         vuls.append(
             {'public_date': vul['public_date'], 'bugzilla_description': vul['bugzilla_description'], 'CVE': vul['CVE']})
     # print(vuls)
-    write_dict_list_to_csv(vuls)
+    write_dict_list_to_csv(vuls, 'cves')
     timed_dict = dict_list_to_timed_dict_list(vuls)
     # print(timed_dict)
     # print(timed_dict.keys())
@@ -104,6 +104,6 @@ def test():
     print(aggregate_timed_dict(timed_dict))
     print(aggregate_timed_dict(timed_dict)[0])
     print(aggregate_timed_dict(timed_dict)[0].keys())
-    #write_dict_list_to_csv(aggregate_timed_dict(timed_dict))
+    write_dict_list_to_csv(aggregate_timed_dict(timed_dict), 'aggregated')
 
 test()
