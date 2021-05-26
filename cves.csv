@@ -1,0 +1,752 @@
+public_date,bugzilla_description,CVE
+2021-05-25T00:00:00Z,CVE-2021-3564 kernel: double free in bluetooth subsystem when the HCI device initialization fails,CVE-2021-3564
+2021-05-25T00:00:00Z,CVE-2021-3565 tpm2-tools: during tpm2_import command invocation a fixed AES wrapping key is used,CVE-2021-3565
+2021-05-24T00:00:00Z,CVE-2021-33516 gupnp: allows DNS rebinding which could result in tricking browser into triggering actions against local UPnP services,CVE-2021-33516
+2021-05-21T00:00:00Z,CVE-2021-31440 kernel: local escalation of privileges in handling of eBPF programs,CVE-2021-31440
+2021-05-21T00:00:00Z,CVE-2021-33502 normalize-url: ReDoS for data URLs,CVE-2021-33502
+2021-05-20T00:00:00Z,CVE-2020-15522 bouncycastle: Timing issue within the EC math library,CVE-2020-15522
+2021-05-20T00:00:00Z,CVE-2021-33194 golang: x/net/html: infinite loop in ParseFragment,CVE-2021-33194
+2021-05-20T00:00:00Z,CVE-2021-23386 dns-packet: does not always fill buffers before forming network packets which couls result in  Remote Memory Exposure,CVE-2021-23386
+2021-05-19T10:00:00Z,CVE-2021-30465 runc: vulnerable to symlink exchange attack,CVE-2021-30465
+2021-05-19T00:00:00Z,CVE-2021-3557 argocd: ServiceAccount argocd-argocd-server is able to read all resources of the whole cluster,CVE-2021-3557
+2021-05-18T00:00:00Z,CVE-2021-25737 kubernetes: Holes in EndpointSlice Validation Enable Host Network Hijack,CVE-2021-25737
+2021-05-18T00:00:00Z,CVE-2021-31535 libX11: missing request length checks,CVE-2021-31535
+2021-05-18T00:00:00Z,CVE-2021-29622 prometheus: open redirect under the /new endpoint,CVE-2021-29622
+2021-05-17T00:00:00Z,CVE-2021-3480 slapi-nis: NULL dereference (DoS) with specially crafted Binding DN,CVE-2021-3480
+2021-05-17T00:00:00Z,CVE-2021-25738 kubernetes-client: Loading specially-crafted yaml can lead to code execution,CVE-2021-25738
+2021-05-17T00:00:00Z,CVE-2021-29957 Mozilla: Partial protection of inline OpenPGP message not indicated,CVE-2021-29957
+2021-05-17T00:00:00Z,CVE-2021-29956 Mozilla: Thunderbird stored OpenPGP secret keys without master password protection,CVE-2021-29956
+2021-05-16T00:00:00Z,CVE-2021-32617 exiv2: DoS due to quadratic complexity in ProcessUTF8Portion,CVE-2021-32617
+2021-05-13T00:00:00Z,CVE-2021-3509 ceph-dashboard: Cross-site scripting via token Cookie,CVE-2021-3509
+2021-05-13T00:00:00Z,CVE-2021-3541 libxml2: Exponential entity expansion attack bypasses all existing protection mechanisms,CVE-2021-3541
+2021-05-13T00:00:00Z,CVE-2021-3515 pglogical: Shell injection by pglogical users with CREATEDB access,CVE-2021-3515
+2021-05-13T00:00:00Z,CVE-2021-3531 ceph: RGW unauthenticated denial of service,CVE-2021-3531
+2021-05-13T00:00:00Z,CVE-2021-32027 postgresql:  Buffer overrun from integer overflow in array subscripting calculations,CVE-2021-32027
+2021-05-13T00:00:00Z,CVE-2021-32028 postgresql: Memory disclosure in INSERT ... ON CONFLICT ... DO UPDATE,CVE-2021-32028
+2021-05-13T00:00:00Z,CVE-2021-32029 postgresql: Memory disclosure in partitioned-table UPDATE ... RETURNING,CVE-2021-32029
+2021-05-13T00:00:00Z,CVE-2021-22116 rabbitmq-server: improper input validation may lead to DoS,CVE-2021-22116
+2021-05-13T00:00:00Z,CVE-2021-29623 exiv2: Use of uninitialized memory in isWebPType() may lead to information leak,CVE-2021-29623
+2021-05-12T01:20:00Z,CVE-2020-24586 kernel: Fragmentation cache not cleared on reconnection,CVE-2020-24586
+2021-05-12T00:00:00Z,CVE-2020-24588 kernel: wifi frame payload being parsed incorrectly as an L2 frame,CVE-2020-24588
+2021-05-12T00:00:00Z,CVE-2020-26139 kernel: Forwarding EAPOL from unauthenticated wifi client,CVE-2020-26139
+2021-05-12T00:00:00Z,CVE-2021-32606 kernel: isotp_setsockopt in net/can/isotp.c allows privilege escalation via use-after-free,CVE-2021-32606
+2021-05-11T19:00:00Z,CVE-2021-3495 kiali/kiali-operator: can deploy specified image to any namespace,CVE-2021-3495
+2021-05-11T19:00:00Z,CVE-2021-29492 envoyproxy/envoy: HTTP request with escaped slash characters can bypass Envoy's authorization mechanisms,CVE-2021-29492
+2021-05-11T19:00:00Z,CVE-2021-31921 istio/istio: authorization bypass when using AUTO_PASSTHROUGH,CVE-2021-31921
+2021-05-11T19:00:00Z,CVE-2021-31920 istio/istio: HTTP request with escaped slash characters can bypass authorization mechanisms,CVE-2021-31920
+2021-05-11T16:59:00Z,CVE-2021-31204 dotnet: .NET Core single-file application privilege escalation,CVE-2021-31204
+2021-05-11T14:00:00Z,CVE-2020-24587 kernel: Reassembling fragments encrypted under different keys,CVE-2020-24587
+2021-05-11T00:00:00Z,CVE-2021-21648 jenkins-2-plugins/credentials: Reflected XSS vulnerability in Credentials Plugin,CVE-2021-21648
+2021-05-11T00:00:00Z,CVE-2021-3490 kernel: Linux kernel eBPF bitwise ops ALU32 bounds tracking,CVE-2021-3490
+2021-05-11T00:00:00Z,CVE-2021-3489 kernel: Linux kernel eBPF RINGBUF map oversized allocation,CVE-2021-3489
+2021-05-11T00:00:00Z,CVE-2021-3491 kernel: Linux kernel io_uring PROVIDE_BUFFERS MAX_RW_COUNT bypass,CVE-2021-3491
+2021-05-11T00:00:00Z,CVE-2020-26140 kernel: accepting plaintext data frames in protected networks,CVE-2020-26140
+2021-05-11T00:00:00Z,CVE-2020-26141 kernel: not verifying TKIP MIC of fragmented frames,CVE-2020-26141
+2021-05-11T00:00:00Z,CVE-2020-26142 kernel: processing fragmented frames as full frames,CVE-2020-26142
+2021-05-11T00:00:00Z,CVE-2020-26143 kernel: accepting fragmented plaintext frames in protected networks,CVE-2020-26143
+2021-05-11T00:00:00Z,CVE-2020-26144 kernel: accepting unencrypted A-MSDU frames that start with RFC1042 header,CVE-2020-26144
+2021-05-11T00:00:00Z,CVE-2020-26145 kernel: accepting plaintext broadcast fragments as full frames,CVE-2020-26145
+2021-05-11T00:00:00Z,CVE-2020-26146 kernel: reassembling encrypted fragments with non-consecutive packet numbers,CVE-2020-26146
+2021-05-11T00:00:00Z,CVE-2020-26147 kernel: reassembling mixed encrypted/plaintext fragments,CVE-2020-26147
+2021-05-10T17:00:00Z,CVE-2021-3533 ansible: race condition in ansible's async code leading to no_log values disclosure,CVE-2021-3533
+2021-05-10T16:53:00Z,CVE-2021-3532 ansible: async_file sensitive information disclosure,CVE-2021-3532
+2021-05-10T00:00:00Z,"CVE-2021-25736 kubernetes: LoadBalancer Service type don't create a HNS policy for empty or invalid external loadbalancer IP, what could lead to MITM",CVE-2021-25736
+2021-05-10T00:00:00Z,CVE-2021-32056 cyrus-imapd: remote authenticated users could bypass intended access restrictions on certain server annotations,CVE-2021-32056
+2021-05-10T00:00:00Z,CVE-2021-28651 squid: denial of service in URN processing,CVE-2021-28651
+2021-05-10T00:00:00Z,CVE-2021-28652 squid: denial of service issue in Cache Manager,CVE-2021-28652
+2021-05-10T00:00:00Z,CVE-2021-28662 squid: denial of service in HTTP response processing,CVE-2021-28662
+2021-05-10T00:00:00Z,CVE-2021-31806 squid: improper input validation in HTTP Range header,CVE-2021-31806
+2021-05-10T00:00:00Z,CVE-2021-31807 squid: incorrect memory management in HTTP Range header,CVE-2021-31807
+2021-05-10T00:00:00Z,CVE-2021-31808 squid: integer overflow in HTTP Range header,CVE-2021-31808
+2021-05-06T00:00:00Z,CVE-2021-32052 django: header injection possibility since URLValidator accepted newlines in input on Python 3.9.5+,CVE-2021-32052
+2021-05-06T00:00:00Z,CVE-2021-21419 python-eventlet: improper handling of highly compressed data and memory allocation with excessive size allows DoS,CVE-2021-21419
+2021-05-05T00:00:00Z,CVE-2021-22903 rubygem-actionpack: Possible Open Redirect Vulnerability in Action Pack,CVE-2021-22903
+2021-05-05T00:00:00Z,CVE-2021-22885 rubygem-actionpack: Possible Information Disclosure / Unintended Method Execution in Action Pack,CVE-2021-22885
+2021-05-05T00:00:00Z,CVE-2021-32055 neomutt: Out of bounds read in IMAP parser,CVE-2021-32055
+2021-05-05T00:00:00Z,CVE-2021-22904 rails: Possible DoS Vulnerability in Action Controller Token Authentication,CVE-2021-22904
+2021-05-05T00:00:00Z,CVE-2021-22902 rails: Possible Denial of Service vulnerability in Action Dispatch,CVE-2021-22902
+2021-05-05T00:00:00Z,CVE-2021-29953 Mozilla: Universal Cross-Site Scripting,CVE-2021-29953
+2021-05-05T00:00:00Z,CVE-2021-29952 Mozilla: Race condition in Web Render Components,CVE-2021-29952
+2021-05-04T00:00:00Z,CVE-2021-31542 django: Potential directory-traversal via uploaded files,CVE-2021-31542
+2021-05-04T00:00:00Z,CVE-2020-8562 kubernetes: Bypass of Kubernetes API Server proxy TOCTOU,CVE-2020-8562
+2021-05-04T00:00:00Z,CVE-2021-29477 redis: Integer overflow via STRALGO LCS command,CVE-2021-29477
+2021-05-04T00:00:00Z,CVE-2021-29478 redis: Integer overflow via COPY command for large intsets,CVE-2021-29478
+2021-05-04T00:00:00Z,CVE-2021-3544 QEMU: vhost-user-gpu: multiple memory leaks,CVE-2021-3544
+2021-05-04T00:00:00Z,CVE-2021-3545 QEMU: vhost-user-gpu: information disclosure due to uninitialized memory read,CVE-2021-3545
+2021-05-04T00:00:00Z,CVE-2021-3546 QEMU: vhost-user-gpu: out-of-bounds write in virgl_cmd_get_capset(),CVE-2021-3546
+2021-05-04T00:00:00Z,CVE-2021-23134 kernel: use-after-free in nfc sockets,CVE-2021-23134
+2021-05-03T00:00:00Z,CVE-2021-3504 hivex: Buffer overflow when provided invalid node key length,CVE-2021-3504
+2021-05-01T00:00:00Z,CVE-2021-3537 libxml2: NULL pointer dereference when post-validating mix content parsed in recovery mode,CVE-2021-3537
+2021-04-30T00:00:00Z,CVE-2021-3527 QEMU: usb: unbounded stack allocation in usbredir,CVE-2021-3527
+2021-04-30T00:00:00Z,CVE-2021-29921 python-ipaddress: Improper input validation of octal strings,CVE-2021-29921
+2021-04-30T00:00:00Z,CVE-2021-31829 kernel: protection of stack pointer against speculative pointer arithmetic can be bypassed to leak content of kernel memory,CVE-2021-31829
+2021-04-29T00:00:00Z,CVE-2021-25317 cups: insecure permissions of /var/log/cups allows for symlink attacks,CVE-2021-25317
+2021-04-29T00:00:00Z,CVE-2021-20254 samba: Negative idmap cache entries can cause incorrect group entries in the Samba file server process token,CVE-2021-20254
+2021-04-29T00:00:00Z,CVE-2021-3543 kernel: nitro_enclaves stale file descriptors on failed usercopy,CVE-2021-3543
+2021-04-29T00:00:00Z,CVE-2021-31918 tripleo-ansible: ansible.log file is visible to unprivileged users,CVE-2021-31918
+2021-04-29T00:00:00Z,CVE-2020-35963 fluent-bit: Out of bounds write in flb_gzip_compress in flb_gzip.c,CVE-2020-35963
+2021-04-29T00:00:00Z,CVE-2020-15225 python-django-filter: Maliciously input using exponential format may cause denial of service,CVE-2020-15225
+2021-04-28T00:00:00Z,CVE-2021-25214 bind: A broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly,CVE-2021-25214
+2021-04-28T00:00:00Z,CVE-2021-25215 bind: An assertion check can fail while answering queries for DNAME records that require the DNAME to be processed to resolve itself,CVE-2021-25215
+2021-04-28T00:00:00Z,CVE-2021-25216 bind: Vulnerability in BIND's GSSAPI security policy negotiation can be targeted by a buffer overflow attack,CVE-2021-25216
+2021-04-28T00:00:00Z,CVE-2021-3520 lz4: memory corruption due to an integer overflow bug caused by memmove argument,CVE-2021-3520
+2021-04-28T00:00:00Z,CVE-2021-20095 python-babel: relative path traversal allows an attacker to load arbitrary locale files on disk and execute arbitrary code,CVE-2021-20095
+2021-04-28T00:00:00Z,CVE-2021-23364 browserslist: parsing of invalid queries could result in Regular Expression Denial of Service (ReDoS),CVE-2021-23364
+2021-04-28T00:00:00Z,CVE-2021-31232 cortex: Alertmanager can expose local files content via specially crafted config,CVE-2021-31232
+2021-04-27T00:00:00Z,CVE-2021-22139 kibana: denial of service via webhook actions due to a lack of timeout or a limit on the request size,CVE-2021-22139
+2021-04-27T00:00:00Z,CVE-2021-22140 Elastic App Search: App Search XML External Entity Injection,CVE-2021-22140
+2021-04-27T00:00:00Z,CVE-2021-21429 openapi-generator: Using File.createTempFile in JDK results in creating insecure temporary files,CVE-2021-21429
+2021-04-26T00:00:00Z,CVE-2021-3513 keycloak: Brute force attack is possible even after the account lockout,CVE-2021-3513
+2021-04-26T00:00:00Z,CVE-2021-23382 nodejs-postcss: ReDoS via getAnnotationURL() and loadAnnotation() in lib/previous-map.js,CVE-2021-23382
+2021-04-26T00:00:00Z,CVE-2021-3561 fig2dev: Global buffer overflow in fig2dev/read.c in function read_objects,CVE-2021-3561
+2021-04-26T00:00:00Z,CVE-2020-13529 systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured,CVE-2020-13529
+2021-04-25T00:00:00Z,CVE-2021-29473 exiv2: out-of-bounds read in Exiv2::Jp2Image::doWriteMetadata,CVE-2021-29473
+2021-04-23T00:00:00Z,CVE-2021-31597 xmlhttprequest-ssl: SSL certificate validation disabled by default,CVE-2021-31597
+2021-04-23T00:00:00Z,CVE-2021-31607 salt: Command injection in the snapper module,CVE-2021-31607
+2021-04-23T00:00:00Z,CVE-2021-29470 exiv2: out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header,CVE-2021-29470
+2021-04-23T00:00:00Z,CVE-2021-26291 maven: Block repositories using http by default,CVE-2021-26291
+2021-04-22T00:00:00Z,CVE-2020-23922 giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool,CVE-2020-23922
+2021-04-22T00:00:00Z,CVE-2021-28168 jersey: Local information disclosure via system temporary directory,CVE-2021-28168
+2021-04-22T00:00:00Z,CVE-2021-27400 vault: TLS certificates not validated when connecting to Cassandra clusters,CVE-2021-27400
+2021-04-22T00:00:00Z,CVE-2021-29653 vault: PKI Engine CRL May Exclude Revoked But Unexpired Certificates After Tidy,CVE-2021-29653
+2021-04-22T00:00:00Z,CVE-2021-3517 libxml2: heap-based buffer overflow in xmlEncodeEntitiesInternal() in entities.c,CVE-2021-3517
+2021-04-22T00:00:00Z,CVE-2021-3518 libxml2: use-after-free in xmlXIncludeDoProcess() in xinclude.c,CVE-2021-3518
+2021-04-22T00:00:00Z,CVE-2021-31525 golang: net/http: panic in ReadRequest and ReadResponse when reading a very large header,CVE-2021-31525
+2021-04-21T00:00:00Z,CVE-2021-21642 jenkins-2-plugins/config-file-provider: Does not configure its XML parser to prevent XML external entity (XXE) attacks.,CVE-2021-21642
+2021-04-21T00:00:00Z,CVE-2021-21643 jenkins-2-plugins/config-file-provider: Does not correctly perform permission checks in several HTTP endpoints.,CVE-2021-21643
+2021-04-21T00:00:00Z,"CVE-2021-21644 jenkins-2-plugins/config-file-provider: does not require POST requests for an HTTP endpoint, resulting in a cross-site request forgery (CSRF) vulnerability.",CVE-2021-21644
+2021-04-21T00:00:00Z,CVE-2021-21645 jenkins-2-plugins/config-file-provider: Does not perform permission checks in several HTTP endpoints.,CVE-2021-21645
+2021-04-21T00:00:00Z,CVE-2021-22207 wireshark: MS-WSP dissector excessive memory consumption,CVE-2021-22207
+2021-04-21T00:00:00Z,CVE-2021-3516 libxml2: use-after-free in xmlEncodeEntitiesInternal() in entities.c,CVE-2021-3516
+2021-04-21T00:00:00Z,CVE-2021-3530 binutils: stack memory exhaustion in demangle_path() in rust-demangle.c,CVE-2021-3530
+2021-04-20T00:00:00Z,"CVE-2021-2163 OpenJDK: Incomplete enforcement of JAR signing disabled algorithms (Libraries, 8249906)",CVE-2021-2163
+2021-04-20T00:00:00Z,"CVE-2021-2161 OpenJDK: Incorrect handling of partially quoted arguments in ProcessBuilder on Windows (Libraries, 8250568)",CVE-2021-2161
+2021-04-20T00:00:00Z,CVE-2021-3542 kernel: Heap buffer overflow in firedtv driver,CVE-2021-3542
+2021-04-20T00:00:00Z,CVE-2021-2144 mysql: Server: Parser unspecified vulnerability (CPU Apr 2021),CVE-2021-2144
+2021-04-20T00:00:00Z,CVE-2021-2146 mysql: Server: Options unspecified vulnerability (CPU Apr 2021),CVE-2021-2146
+2021-04-20T00:00:00Z,CVE-2021-2154 mysql: Server: DML unspecified vulnerability (CPU Apr 2021),CVE-2021-2154
+2021-04-20T00:00:00Z,CVE-2021-2162 mysql: Server: Audit Plug-in unspecified vulnerability (CPU Apr 2021),CVE-2021-2162
+2021-04-20T00:00:00Z,CVE-2021-2164 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2164
+2021-04-20T00:00:00Z,CVE-2021-2166 mysql: Server: DML unspecified vulnerability (CPU Apr 2021),CVE-2021-2166
+2021-04-20T00:00:00Z,CVE-2021-2169 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2169
+2021-04-20T00:00:00Z,CVE-2021-2170 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2170
+2021-04-20T00:00:00Z,CVE-2021-2171 mysql: Server: Replication unspecified vulnerability (CPU Apr 2021),CVE-2021-2171
+2021-04-20T00:00:00Z,CVE-2021-2172 mysql: Server: DML unspecified vulnerability (CPU Apr 2021),CVE-2021-2172
+2021-04-20T00:00:00Z,CVE-2021-2178 mysql: Server: Replication unspecified vulnerability (CPU Apr 2021),CVE-2021-2178
+2021-04-20T00:00:00Z,CVE-2021-2179 mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2021),CVE-2021-2179
+2021-04-20T00:00:00Z,CVE-2021-2180 mysql: InnoDB unspecified vulnerability (CPU Apr 2021),CVE-2021-2180
+2021-04-20T00:00:00Z,CVE-2021-2193 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2193
+2021-04-20T00:00:00Z,CVE-2021-2194 mysql: InnoDB unspecified vulnerability (CPU Apr 2021),CVE-2021-2194
+2021-04-20T00:00:00Z,CVE-2021-2196 mysql: Server: DML unspecified vulnerability (CPU Apr 2021),CVE-2021-2196
+2021-04-20T00:00:00Z,CVE-2021-2201 mysql: Server: Partition unspecified vulnerability (CPU Apr 2021),CVE-2021-2201
+2021-04-20T00:00:00Z,CVE-2021-2202 mysql: Server: Replication unspecified vulnerability (CPU Apr 2021),CVE-2021-2202
+2021-04-20T00:00:00Z,CVE-2021-2203 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2203
+2021-04-20T00:00:00Z,CVE-2021-2208 mysql: Server: Partition unspecified vulnerability (CPU Apr 2021),CVE-2021-2208
+2021-04-20T00:00:00Z,CVE-2021-2212 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2212
+2021-04-20T00:00:00Z,CVE-2021-2213 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2213
+2021-04-20T00:00:00Z,CVE-2021-2215 mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021),CVE-2021-2215
+2021-04-20T00:00:00Z,CVE-2021-2217 mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021),CVE-2021-2217
+2021-04-20T00:00:00Z,CVE-2021-2226 mysql: Server: Information Schema unspecified vulnerability (CPU Apr 2021),CVE-2021-2226
+2021-04-20T00:00:00Z,CVE-2021-2230 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2230
+2021-04-20T00:00:00Z,CVE-2021-2232 mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2021),CVE-2021-2232
+2021-04-20T00:00:00Z,CVE-2021-2278 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2278
+2021-04-20T00:00:00Z,CVE-2021-2293 mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021),CVE-2021-2293
+2021-04-20T00:00:00Z,CVE-2021-2298 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2298
+2021-04-20T00:00:00Z,CVE-2021-2299 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2299
+2021-04-20T00:00:00Z,CVE-2021-2300 mysql: Server: DML unspecified vulnerability (CPU Apr 2021),CVE-2021-2300
+2021-04-20T00:00:00Z,CVE-2021-2301 mysql: Server: Information Schema unspecified vulnerability (CPU Apr 2021),CVE-2021-2301
+2021-04-20T00:00:00Z,CVE-2021-2304 mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021),CVE-2021-2304
+2021-04-20T00:00:00Z,CVE-2021-2305 mysql: Server: DML unspecified vulnerability (CPU Apr 2021),CVE-2021-2305
+2021-04-20T00:00:00Z,CVE-2021-2307 mysql: Server: Packaging unspecified vulnerability (CPU Apr 2021),CVE-2021-2307
+2021-04-20T00:00:00Z,CVE-2021-2308 mysql: Server: Information Schema unspecified vulnerability (CPU Apr 2021),CVE-2021-2308
+2021-04-20T00:00:00Z,CVE-2021-2174 mysql: InnoDB unspecified vulnerability (CPU Apr 2021),CVE-2021-2174
+2021-04-20T00:00:00Z,CVE-2021-2160 mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021),CVE-2021-2160
+2021-04-19T00:00:00Z,CVE-2021-3507 QEMU: fdc: heap buffer overflow in DMA read data transfers,CVE-2021-3507
+2021-04-19T00:00:00Z,CVE-2021-23994 Mozilla: Out of bound write due to lazy initialization,CVE-2021-23994
+2021-04-19T00:00:00Z,CVE-2021-23995 Mozilla: Use-after-free in Responsive Design Mode,CVE-2021-23995
+2021-04-19T00:00:00Z,CVE-2021-23998 Mozilla: Secure Lock icon could have been spoofed,CVE-2021-23998
+2021-04-19T00:00:00Z,CVE-2021-23961 Mozilla: More internal network hosts could have been probed by a malicious webpage,CVE-2021-23961
+2021-04-19T00:00:00Z,CVE-2021-23999 Mozilla: Blob URLs may have been granted additional privileges,CVE-2021-23999
+2021-04-19T00:00:00Z,CVE-2021-24002 Mozilla: Arbitrary FTP command execution on FTP servers using an encoded URL,CVE-2021-24002
+2021-04-19T00:00:00Z,CVE-2021-29945 Mozilla: Incorrect size computation in WebAssembly JIT could lead to null-reads,CVE-2021-29945
+2021-04-19T00:00:00Z,CVE-2021-29946 Mozilla: Port blocking could be bypassed,CVE-2021-29946
+2021-04-19T00:00:00Z,CVE-2021-29948 Mozilla: Race condition when reading from disk while verifying signatures,CVE-2021-29948
+2021-04-18T09:00:00Z,CVE-2021-23133 kernel: Race condition in sctp_destroy_sock list_del,CVE-2021-23133
+2021-04-18T00:00:00Z,CVE-2021-29155 kernel: protection for sequences of pointer arithmetic operations against speculatively out-of-bounds loads can be bypassed to leak content of kernel memory,CVE-2021-29155
+2021-04-18T00:00:00Z,CVE-2021-29458 exiv2: out-of-bounds read in Exiv2::Internal::CrwMap::encode,CVE-2021-29458
+2021-04-18T00:00:00Z,CVE-2021-29457 exiv2: heap-based buffer overflow in Exiv2::Jp2Image::doWriteMetadata,CVE-2021-29457
+2021-04-16T00:00:00Z,CVE-2021-3529 noobaa-core: Cross-site scripting vulnerability with noobaa management URL,CVE-2021-3529
+2021-04-16T00:00:00Z,CVE-2021-28156 consul: Audit log requests bypass,CVE-2021-28156
+2021-04-16T00:00:00Z,CVE-2021-3492 kernel: shiftfs file system double free vulnerability,CVE-2021-3492
+2021-04-16T00:00:00Z,CVE-2021-3493 kernel: overlayfs file system caps privilege escalation,CVE-2021-3493
+2021-04-15T00:00:00Z,CVE-2021-28683 envoyproxy/envoy: NULL pointer dereference in TLS alert code handling,CVE-2021-28683
+2021-04-15T00:00:00Z,CVE-2021-28682 envoyproxy/envoy: integer overflow handling large grpc-timeouts,CVE-2021-28682
+2021-04-15T00:00:00Z,CVE-2021-29258 envoyproxy/envoy: crash with empty HTTP/2 metadata map,CVE-2021-29258
+2021-04-15T00:00:00Z,CVE-2021-3524 ceph object gateway: radosgw: CRLF injection,CVE-2021-3524
+2021-04-14T00:00:00Z,CVE-2021-25735 kubernetes: Validating Admission Webhook does not observe some previous fields,CVE-2021-25735
+2021-04-14T00:00:00Z,CVE-2021-20288 ceph: Unauthorized global_id reuse in cephx,CVE-2021-20288
+2021-04-14T00:00:00Z,CVE-2021-3499 openshift/ovn-kubernetes: Egress Firewall does not reliably apply firewall rules,CVE-2021-3499
+2021-04-14T00:00:00Z,CVE-2020-25864 consul: specially crafted KV entry could be used to perform a XSS attack,CVE-2020-25864
+2021-04-13T14:00:00Z,CVE-2021-3472 xorg-x11-server: XChangeFeedbackControl integer underflow leads to privilege escalation,CVE-2021-3472
+2021-04-13T09:30:00Z,CVE-2021-3501 kernel: userspace applications can misuse the KVM API to cause a write of 16 bytes at an offset up to 32 GB from vcpu->run,CVE-2021-3501
+2021-04-12T09:00:00Z,CVE-2021-20208 cifs-utils: Container can use kerberos cache from the host via mount.cifs/cifs.upcall,CVE-2021-20208
+2021-04-12T00:00:00Z,CVE-2021-3536 wildfly: XSS via admin console when creating roles in domain mode,CVE-2021-3536
+2021-04-12T00:00:00Z,CVE-2020-7924 mongodb: sslAllowInvalidHostnames bypass ssl/tls server certification validation entirely,CVE-2020-7924
+2021-04-12T00:00:00Z,CVE-2021-29425 apache-commons-io: Limited path traversal in Apache Commons IO 2.2 to 2.6,CVE-2021-29425
+2021-04-12T00:00:00Z,CVE-2021-23369 nodejs-handlebars: Remote code execution when compiling untrusted compile templates with strict:true option,CVE-2021-23369
+2021-04-12T00:00:00Z,CVE-2021-23368 nodejs-postcss: Regular expression denial of service during source map parsing,CVE-2021-23368
+2021-04-12T00:00:00Z,CVE-2021-27905 solr: SSRF vulnerability with the Replication handler,CVE-2021-27905
+2021-04-12T00:00:00Z,CVE-2021-29262 solr: misapplied Zookeeper ACLs can result in leakage of configured authentication and authorization settings,CVE-2021-29262
+2021-04-12T00:00:00Z,CVE-2021-29943 solr: unprivileged users may be able to perform unauthorized read/write to collections,CVE-2021-29943
+2021-04-12T00:00:00Z,CVE-2021-23383 nodejs-handlebars: Remote code execution when compiling untrusted compile templates with compat:true option,CVE-2021-23383
+2021-04-09T17:15:00Z,CVE-2021-3494 foreman: possible man-in-the-middle in smart_proxy realm_freeipa,CVE-2021-3494
+2021-04-09T00:00:00Z,CVE-2021-3503 wildfly: Insufficient RBAC restrictions to metrics data,CVE-2021-3503
+2021-04-09T00:00:00Z,CVE-2021-29429 gradle: information disclosure through temporary directory permissions,CVE-2021-29429
+2021-04-09T00:00:00Z,CVE-2021-29427 gradle: repository content filters do not work in Settings pluginManagement,CVE-2021-29427
+2021-04-09T00:00:00Z,CVE-2021-29428 gradle: local privilege escalation through system temporary directory,CVE-2021-29428
+2021-04-08T00:00:00Z,CVE-2021-29154 kernel: Local privilege escalation due to incorrect BPF JIT branch displacement computation,CVE-2021-29154
+2021-04-08T00:00:00Z,CVE-2021-23991 Mozilla: An attacker may use Thunderbird's OpenPGP key refresh mechanism to poison an existing key,CVE-2021-23991
+2021-04-08T00:00:00Z,CVE-2021-23992 Mozilla: A crafted OpenPGP key with an invalid user ID could be used to confuse the user,CVE-2021-23992
+2021-04-08T00:00:00Z,CVE-2021-23993 Mozilla: Inability to send encrypted OpenPGP email after importing a crafted OpenPGP key,CVE-2021-23993
+2021-04-08T00:00:00Z,"CVE-2021-30159 mediawiki: users can bypass intended restrictions on deleting pages in certain ""fast double move"" situations",CVE-2021-30159
+2021-04-08T00:00:00Z,CVE-2021-29949 Mozilla: Thunderbird might execute an alternative OTR library,CVE-2021-29949
+2021-04-07T00:00:00Z,CVE-2021-21639 jenkins: lack of type validation in agent related REST API,CVE-2021-21639
+2021-04-07T00:00:00Z,CVE-2021-21640 jenkins: view name validation bypass,CVE-2021-21640
+2021-04-06T08:00:00Z,CVE-2021-28658 django: potential directory-traversal via uploaded files,CVE-2021-28658
+2021-04-06T00:00:00Z,CVE-2021-30156 mediawiki: Special:Contributions toolbar reveals existence of hidden users,CVE-2021-30156
+2021-04-05T00:00:00Z,CVE-2021-20306 Business-central: Ruleflow Groups from other projects displayed on BPMN editor despite user having no access to those projects,CVE-2021-20306
+2021-04-05T00:00:00Z,CVE-2021-3482 exiv2: heap-based buffer overflow in Jp2Image::readMetadata() in jp2image.cpp,CVE-2021-3482
+2021-04-05T00:00:00Z,CVE-2021-28965 ruby: XML round-trip vulnerability in REXML,CVE-2021-28965
+2021-04-04T00:00:00Z,CVE-2021-30184 gnuchess: buffer overflows in the cmd_pgnload() and cmd_pgnreplay() functions in frontend/cmd.cc,CVE-2021-30184
+2021-04-04T00:00:00Z,CVE-2021-3483 kernel: use-after-free in nosy driver in nosy_ioctl() in drivers/firewire/nosy.c when a device is added twice,CVE-2021-3483
+2021-04-02T00:00:00Z,CVE-2021-30002 kernel: memory leak for large arguments in video_usercopy function in drivers/media/v4l2-core/v4l2-ioctl.c,CVE-2021-30002
+2021-04-02T00:00:00Z,CVE-2021-22696 cxf: OAuth 2 authorization service vulnerable to DDos attacks,CVE-2021-22696
+2021-04-01T00:00:00Z,CVE-2021-20291 containers/storage: DoS via malicious image,CVE-2021-20291
+2021-04-01T00:00:00Z,CVE-2021-28163 jetty: Symlink directory exposes webapp directory contents,CVE-2021-28163
+2021-04-01T00:00:00Z,CVE-2021-28164 jetty: Ambiguous paths can access WEB-INF,CVE-2021-28164
+2021-04-01T00:00:00Z,CVE-2021-28165 jetty: Resource exhaustion when receiving an invalid large TLS frame,CVE-2021-28165
+2021-04-01T00:00:00Z,CVE-2021-29421 pikepdf: XML external entity issue when parsing XMP metadata entries,CVE-2021-29421
+2021-04-01T00:00:00Z,CVE-2021-3514 389-ds-base: sync_repl NULL pointer dereference in sync_create_state_control(),CVE-2021-3514
+2021-04-01T00:00:00Z,CVE-2021-25287 python-pillow: out-of-bounds read in J2kDecode in j2ku_graya_la,CVE-2021-25287
+2021-04-01T00:00:00Z,CVE-2021-25288 python-pillow: out-of-bounds read in J2kDecode in j2ku_gray_i,CVE-2021-25288
+2021-04-01T00:00:00Z,CVE-2021-28675 python-pillow: DoS in PsdImagePlugin,CVE-2021-28675
+2021-04-01T00:00:00Z,CVE-2021-28676 python-pillow: infinite loop in FliDecode.c can lead to DoS,CVE-2021-28676
+2021-04-01T00:00:00Z,CVE-2021-28677 python-pillow: DoS in the open phase via a malicious EPS file,CVE-2021-28677
+2021-04-01T00:00:00Z,CVE-2021-28678 python-pillow: improper check in BlpImagePlugin can lead to DoS,CVE-2021-28678
+2021-03-31T00:00:00Z,CVE-2021-22876 curl: Leak of authentication credentials in URL via automatic Referer,CVE-2021-22876
+2021-03-31T00:00:00Z,CVE-2021-22890 curl: TLS 1.3 session ticket mix-up with HTTPS proxy host,CVE-2021-22890
+2021-03-30T10:00:00Z,CVE-2021-20290 smart_proxy_openscap: Clients can perform reserved actions on Foreman Server through OpenSCAP plugin for smart-proxy,CVE-2021-20290
+2021-03-30T10:00:00Z,CVE-2021-3457 smart_proxy_shellhooks: unauthorized users can execute actions that should be reserved for foreman,CVE-2021-3457
+2021-03-30T10:00:00Z,CVE-2021-3456 smart_proxy_salt: unauthorized users can execute actions that should be reserved for foreman,CVE-2021-3456
+2021-03-30T00:00:00Z,CVE-2021-28657 tika-parsers: Infinite loop in MP3Parser,CVE-2021-28657
+2021-03-30T00:00:00Z,CVE-2021-21409 netty: Request smuggling via content-length header,CVE-2021-21409
+2021-03-29T00:00:00Z,CVE-2021-23358 nodejs-underscore: Arbitrary code execution via the template function,CVE-2021-23358
+2021-03-29T00:00:00Z,CVE-2021-29418 nodejs-netmask: incorrectly parses an IP address that has octal integer with invalid character,CVE-2021-29418
+2021-03-29T00:00:00Z,CVE-2021-28918 nodejs-netmask: improper input validation of octal input data,CVE-2021-28918
+2021-03-29T00:00:00Z,CVE-2021-1788 webkitgtk: use after free issue may lead to arbitrary code execution,CVE-2021-1788
+2021-03-29T00:00:00Z,CVE-2021-1844 webkitgtk: memory corruption issue may lead to arbitrary code execution,CVE-2021-1844
+2021-03-29T00:00:00Z,CVE-2021-1871 webkitgtk: logic issue may lead to arbitrary code execution,CVE-2021-1871
+2021-03-29T00:00:00Z,CVE-2021-3502 avahi: reachable assertion in avahi_s_host_name_resolver_start when trying to resolve badly-formatted hostnames,CVE-2021-3502
+2021-03-29T00:00:00Z,CVE-2021-31916 kernel: out of bounds array access in drivers/md/dm-ioctl.c,CVE-2021-31916
+2021-03-28T00:00:00Z,CVE-2021-3506 kernel: Out of bounds memory access bug in get_next_net_page() in fs/f2fs/node.c,CVE-2021-3506
+2021-03-28T00:00:00Z,CVE-2021-31162 rust: double free in Vec::from_iter function if freeing the element panics,CVE-2021-31162
+2021-03-27T00:00:00Z,CVE-2021-29272 bluemonday: Cross-site scripting via uppercase Cyrillic i,CVE-2021-29272
+2021-03-26T00:00:00Z,CVE-2021-3469 Foreman: Impersonation vulnerability in Foreman,CVE-2021-3469
+2021-03-25T00:00:00Z,CVE-2021-3450 openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT,CVE-2021-3450
+2021-03-25T00:00:00Z,CVE-2021-3449 openssl: NULL pointer dereference in signature_algorithms processing,CVE-2021-3449
+2021-03-25T00:00:00Z,CVE-2021-20293 RESTEasy: PathParam in RESTEasy can lead to a reflected XSS attack,CVE-2021-20293
+2021-03-25T00:00:00Z,CVE-2021-20297 NetworkManager: Profile with match.path setting triggers crash,CVE-2021-20297
+2021-03-24T00:00:00Z,CVE-2020-27840 samba: Heap corruption via crafted DN strings,CVE-2020-27840
+2021-03-24T00:00:00Z,CVE-2021-20277 samba: Out of bounds read in AD DC LDAP server,CVE-2021-20277
+2021-03-24T00:00:00Z,CVE-2020-1946 spamassassin: Malicious rule configuration files can be configured to run system commands,CVE-2020-1946
+2021-03-24T00:00:00Z,CVE-2021-29338 openjpeg2: out-of-bounds write due to an integer overflow in opj_compress.c,CVE-2021-29338
+2021-03-23T00:00:00Z,CVE-2021-3429 cloud-init: randomly generated passwords logged in clear-text to world-readable file,CVE-2021-3429
+2021-03-23T00:00:00Z,CVE-2021-23981 Mozilla: Texture upload into an unbound backing buffer resulted in an out-of-bound read,CVE-2021-23981
+2021-03-23T00:00:00Z,CVE-2021-23982 Mozilla: Internal network hosts could have been probed by a malicious webpage,CVE-2021-23982
+2021-03-23T00:00:00Z,CVE-2021-23984 Mozilla: Malicious extensions could have spoofed popup information,CVE-2021-23984
+2021-03-23T00:00:00Z,CVE-2021-23987 Mozilla: Memory safety bugs fixed in Firefox 87 and Firefox ESR 78.9,CVE-2021-23987
+2021-03-23T00:00:00Z,CVE-2021-22135 elasticsearch: Document disclosure flaw in the Elasticsearch suggester,CVE-2021-22135
+2021-03-23T00:00:00Z,CVE-2021-22137 elasticsearch: Document disclosure flaw when Document or Field Level Security is used,CVE-2021-22137
+2021-03-23T00:00:00Z,CVE-2021-22136 kibana: xpack.security.session.idleTimeout setting timeout not being respected,CVE-2021-22136
+2021-03-23T00:00:00Z,CVE-2021-23362 nodejs-hosted-git-info: Regular Expression denial of service via shortcutMatch in fromUrl(),CVE-2021-23362
+2021-03-22T00:00:00Z,CVE-2019-14840 Business-central: Sensitive HTML Form Fields like Password has auto-complete Enabled,CVE-2019-14840
+2021-03-22T00:00:00Z,CVE-2021-3461 keycloak: Backchannel logout not working when Principal Type is set to Attribute Name for external SAML IDP,CVE-2021-3461
+2021-03-22T00:00:00Z,CVE-2021-28972 kernel: Buffer overflow in hotplug/rpadlpar_sysfs.c,CVE-2021-28972
+2021-03-22T00:00:00Z,CVE-2021-28971 kernel: System crash in intel_pmu_drain_pebs_nhm in arch/x86/events/intel/ds.c,CVE-2021-28971
+2021-03-22T00:00:00Z,CVE-2021-3465 p7zip: NULL pointer dereference in NCompress::CCopyCoder::Code function in CPP/7zip/Common/StreamObjects.cpp,CVE-2021-3465
+2021-03-22T00:00:00Z,CVE-2020-27918 webkitgtk: use after free issue may lead to arbitrary code execution,CVE-2020-27918
+2021-03-22T00:00:00Z,CVE-2020-29623 webkitgtk: a user may be unable to fully delete browsing history,CVE-2020-29623
+2021-03-22T00:00:00Z,CVE-2020-9947 webkitgtk: use after free issue may lead to arbitrary code execution,CVE-2020-9947
+2021-03-22T00:00:00Z,CVE-2021-1765 webkitgtk: maliciously crafted web content may violate iframe sandboxing policy,CVE-2021-1765
+2021-03-22T00:00:00Z,CVE-2021-1789 webkitgtk: type confusion issue may lead to arbitrary code execution,CVE-2021-1789
+2021-03-22T00:00:00Z,CVE-2021-1799 webkitgtk: a malicious website may be able to access restricted ports on arbitrary servers,CVE-2021-1799
+2021-03-22T00:00:00Z,CVE-2021-1801 webkitgtk: maliciously crafted web content may violate iframe sandboxing policy,CVE-2021-1801
+2021-03-22T00:00:00Z,CVE-2021-1870 webkitgtk: logic issue may lead to arbitrary code execution,CVE-2021-1870
+2021-03-22T00:00:00Z,CVE-2021-30154 mediawiki: XSS due to unescaped messages used in HTML on Special:NewFiles,CVE-2021-30154
+2021-03-22T00:00:00Z,CVE-2021-30157 mediawiki: XSS due to unescaped messages used in HTML on ChangesList pages,CVE-2021-30157
+2021-03-22T00:00:00Z,CVE-2021-33034 kernel: use-after-free in net/bluetooth/hci_event.c when destroying an hci_chan,CVE-2021-33034
+2021-03-21T00:00:00Z,CVE-2021-28957 python-lxml: missing input sanitization for formaction HTML5 attributes may lead to XSS,CVE-2021-28957
+2021-03-19T00:00:00Z,CVE-2020-27171 kernel: Integer underflow when restricting speculative pointer arithmetic,CVE-2020-27171
+2021-03-19T00:00:00Z,CVE-2020-27170 kernel: Speculation on pointer arithmetic against bpf_context pointer,CVE-2020-27170
+2021-03-19T00:00:00Z,CVE-2021-27928 mariadb: writable system variables allows a database user with SUPER privilege to execute arbitrary code as the system mysql user,CVE-2021-27928
+2021-03-19T00:00:00Z,CVE-2021-27906 pdfbox: OutOfMemory-Exception while loading a crafted PDF file,CVE-2021-27906
+2021-03-19T00:00:00Z,CVE-2021-27807 pdfbox: infinite loop while loading a crafted PDF file,CVE-2021-27807
+2021-03-19T00:00:00Z,CVE-2021-29649 kernel: memory leak in user mode driver due to lack of cleanup steps in kernel/usermode_driver.c and kernel/bpf/preload/bpf_preload_kern.c,CVE-2021-29649
+2021-03-19T00:00:00Z,CVE-2021-30158 mediawiki: blocked users are unable to use Special:ResetTokens,CVE-2021-30158
+2021-03-18T13:00:00Z,CVE-2021-27962 grafana: users with editor role allows to bypass data source permissions,CVE-2021-27962
+2021-03-18T13:00:00Z,CVE-2021-28146 grafana: Authorization bypass via external groups,CVE-2021-28146
+2021-03-18T13:00:00Z,CVE-2021-28147 grafana: Allows to bypass access control restrictions via external groups,CVE-2021-28147
+2021-03-18T13:00:00Z,CVE-2021-28148 grafana: usage insights API endpoint doesn't limit number of requests which could result in DoS,CVE-2021-28148
+2021-03-18T00:00:00Z,CVE-2021-21623 jenkins-2-plugins/matrix-auth: Incorrect permission checks in Matrix Authorization Strategy Plugin,CVE-2021-21623
+2021-03-17T06:30:00Z,CVE-2020-35519 kernel: x25_bind out-of-bounds read,CVE-2020-35519
+2021-03-17T00:00:00Z,CVE-2019-14852 apicast: deprecated protocol TLS 1.0 enabled in gateway,CVE-2019-14852
+2021-03-17T00:00:00Z,CVE-2019-3867 quay: insufficient session expiration,CVE-2019-3867
+2021-03-17T00:00:00Z,CVE-2021-26260 OpenEXR: Integer-overflow in Imf_2_5::DwaCompressor::initializeBuffers,CVE-2021-26260
+2021-03-17T00:00:00Z,CVE-2021-23215 OpenEXR: Integer-overflow in Imf_2_5::DwaCompressor::initializeBuffers,CVE-2021-23215
+2021-03-17T00:00:00Z,CVE-2021-26945 OpenEXR: Integer-overflow in bool Imf_2_5::readDeepTile<Imf_2_5::DeepTiledInputPart>,CVE-2021-26945
+2021-03-17T00:00:00Z,CVE-2021-23169 OpenEXR: Heap-buffer-overflow in Imf_2_5::copyIntoFrameBuffer,CVE-2021-23169
+2021-03-16T17:02:00Z,"CVE-2021-3445 libdnf: libdnf does its own signature verification, but this can be tricked by placing a signature in the main header",CVE-2021-3445
+2021-03-16T00:00:00Z,CVE-2021-20202 keycloak: Temporary Directory Hijacking Vulnerability in Keycloak,CVE-2021-20202
+2021-03-16T00:00:00Z,CVE-2021-3447 ansible: multiple modules expose secured values,CVE-2021-3447
+2021-03-16T00:00:00Z,CVE-2021-28543 varnish-modules: NULL pointer dereference in Varnish Cache via header.append() and header.copy() functions,CVE-2021-28543
+2021-03-16T00:00:00Z,CVE-2021-28964 kernel: race condition in get_old_root function in fs/btrfs/ctree.c because of a lack of locking on an extent buffer before a cloning operation,CVE-2021-28964
+2021-03-16T00:00:00Z,CVE-2021-20305 nettle: Out of bounds memory access in signature verification,CVE-2021-20305
+2021-03-15T00:00:00Z,CVE-2021-3466 libmicrohttpd: Buffer overflow issue in URL parser in the post_process_urlencoded function,CVE-2021-3466
+2021-03-15T00:00:00Z,CVE-2021-3474 OpenEXR: Undefined-shift in Imf_2_5::FastHufDecoder::FastHufDecoder,CVE-2021-3474
+2021-03-15T00:00:00Z,CVE-2021-3475 OpenEXR: Integer-overflow in Imf_2_5::calculateNumTiles,CVE-2021-3475
+2021-03-15T00:00:00Z,CVE-2021-28375 kernel: fastrpc_internal_invoke in drivers/misc/fastrpc.c does not prevent user applications from sending kernel RPC messages,CVE-2021-28375
+2021-03-15T00:00:00Z,CVE-2021-28363 python-urllib3: HTTPS proxy host name not validated when using default SSLContext,CVE-2021-28363
+2021-03-15T00:00:00Z,CVE-2021-3497 gstreamer-plugins-good: Use-after-free in matroska demuxing,CVE-2021-3497
+2021-03-15T00:00:00Z,CVE-2021-3498 gstreamer-plugins-good: Heap corruption in matroska demuxing,CVE-2021-3498
+2021-03-15T00:00:00Z,CVE-2021-29646 kernel: improper input validation in tipc_nl_retrieve_key function in net/tipc/node.c,CVE-2021-29646
+2021-03-15T00:00:00Z,CVE-2021-29650 kernel: lack a full memory barrier upon the assignment of a new table value in net/netfilter/x_tables.c and include/linux/netfilter/x_tables.h may lead to DoS,CVE-2021-29650
+2021-03-15T00:00:00Z,CVE-2021-3522 gstreamer-plugins-base: out-of-bounds read when handling certain ID3v2 tags,CVE-2021-3522
+2021-03-14T00:00:00Z,CVE-2021-28834 rubygem-kramdown: allows arbitrary classes to be instantiated,CVE-2021-28834
+2021-03-14T00:00:00Z,CVE-2021-29266 kernel: use-after-free in drivers/vhost/vdpa.c because v->config_ctx has an invalid value upon re-opening a character device,CVE-2021-29266
+2021-03-14T00:00:00Z,CVE-2021-29647 kernel: information disclosure due to uninitialized data structure in qrtr_recvmsg function in net/qrtr/qrtr.c,CVE-2021-29647
+2021-03-14T00:00:00Z,CVE-2021-30004 wpa_supplicant: mishandled AlgorithmIdentifier parameters may lead to forging attacks,CVE-2021-30004
+2021-03-12T09:54:00Z,CVE-2021-20232 gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c,CVE-2021-20232
+2021-03-12T09:49:00Z,CVE-2021-20231 gnutls: Use after free in client key_share extension,CVE-2021-20231
+2021-03-12T00:00:00Z,CVE-2021-20179 pki-core: Unprivileged users can renew any certificate,CVE-2021-20179
+2021-03-12T00:00:00Z,CVE-2021-3443 jasper: NULL pointer dereference in jp2_decode() in jp2_dec.c,CVE-2021-3443
+2021-03-12T00:00:00Z,CVE-2021-3448 dnsmasq: fixed outgoing port used when --server is used with an interface name,CVE-2021-3448
+2021-03-12T00:00:00Z,CVE-2021-28831 busybox: invalid free or segmentation fault via malformed gzip data,CVE-2021-28831
+2021-03-12T00:00:00Z,CVE-2021-27290 nodejs-ssri: Regular expression DoS (ReDoS) when parsing malicious SRI in strict mode,CVE-2021-27290
+2021-03-12T00:00:00Z,CVE-2021-21341 XStream: allow a remote attacker to cause DoS only by manipulating the processed input stream,CVE-2021-21341
+2021-03-12T00:00:00Z,CVE-2021-21342 XStream: SSRF via crafted input stream,CVE-2021-21342
+2021-03-12T00:00:00Z,CVE-2021-21343 XStream: arbitrary file deletion on the local host via crafted input stream,CVE-2021-21343
+2021-03-12T00:00:00Z,CVE-2021-21344 XStream: Unsafe deserizaliation of javax.sql.rowset.BaseRowSet,CVE-2021-21344
+2021-03-12T00:00:00Z,CVE-2021-21345 XStream: Unsafe deserizaliation of com.sun.corba.se.impl.activation.ServerTableEntry,CVE-2021-21345
+2021-03-12T00:00:00Z,CVE-2021-21346 XStream: Unsafe deserizaliation of sun.swing.SwingLazyValue,CVE-2021-21346
+2021-03-12T00:00:00Z,CVE-2021-21347 XStream: Unsafe deserizaliation of com.sun.tools.javac.processing.JavacProcessingEnvironment NameProcessIterator,CVE-2021-21347
+2021-03-12T00:00:00Z,CVE-2021-21348 XStream: ReDoS vulnerability,CVE-2021-21348
+2021-03-12T00:00:00Z,CVE-2021-21349 XStream: SSRF can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host,CVE-2021-21349
+2021-03-12T00:00:00Z,CVE-2021-21350 XStream: Unsafe deserizaliation of com.sun.org.apache.bcel.internal.util.ClassLoader,CVE-2021-21350
+2021-03-12T00:00:00Z,CVE-2021-21351 XStream: allow a remote attacker to load and execute arbitrary code from a remote host only by manipulating the processed input stream,CVE-2021-21351
+2021-03-11T22:53:00Z,CVE-2021-20271 rpm: Signature checks bypass via corrupted rpm package,CVE-2021-20271
+2021-03-11T22:51:00Z,CVE-2021-3421 rpm: unsigned signature header leads to string injection into an rpm database,CVE-2021-3421
+2021-03-11T22:49:00Z,CVE-2021-20266 rpm: missing length checks in hdrblobInit(),CVE-2021-20266
+2021-03-11T22:49:00Z,CVE-2021-20249 rpm: integer overflow in hdrblobVerifyRegion(),CVE-2021-20249
+2021-03-11T22:48:00Z,CVE-2021-20248 rpm: integer overflow in hdrblobVerifyRegion() in lib/header.c,CVE-2021-20248
+2021-03-11T06:00:00Z,CVE-2021-20261 kernel: panic on multiple access to floppy device,CVE-2021-20261
+2021-03-11T00:00:00Z,CVE-2021-28092 nodejs-is-svg: ReDoS via malicious string,CVE-2021-28092
+2021-03-11T00:00:00Z,CVE-2021-22191 wireshark: improper URL handling may lead to remote code execution,CVE-2021-22191
+2021-03-10T00:00:00Z,CVE-2021-3426 python: information disclosure via pydoc,CVE-2021-3426
+2021-03-10T00:00:00Z,CVE-2021-20205 libjpeg-turbo: DoS via open crafted GIF,CVE-2021-20205
+2021-03-10T00:00:00Z,CVE-2021-27918 golang: encoding/xml: infinite loop when using xml.NewTokenDecoder with a custom TokenReader,CVE-2021-27918
+2021-03-10T00:00:00Z,CVE-2021-27919 golang: archive/zip: panic when calling Reader.Open,CVE-2021-27919
+2021-03-10T00:00:00Z,CVE-2021-28153 glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink,CVE-2021-28153
+2021-03-10T00:00:00Z,CVE-2021-28361 spdk: NULL pointer dereference in the iSCSI target If a PDU is sent with a zero length,CVE-2021-28361
+2021-03-10T00:00:00Z,CVE-2021-3468 avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket,CVE-2021-3468
+2021-03-10T00:00:00Z,CVE-2021-28660 kernel: buffer overflow in rtw_wx_set_scan function in drivers/staging/rtl8188eu/os_dep/ioctl_linux.c,CVE-2021-28660
+2021-03-10T00:00:00Z,CVE-2021-28952 kernel: buffer overflow in sound/soc/qcom/sdm845.c when an unexpected port ID number is encountered,CVE-2021-28952
+2021-03-10T00:00:00Z,CVE-2021-29265 kernel: race conditions in usbip_sockfd_store function in drivers/usb/usbip/stub_dev.c can lead to DoS,CVE-2021-29265
+2021-03-09T18:00:00Z,CVE-2021-21300 git: remote code execution during clone operation on case-insensitive filesystems,CVE-2021-21300
+2021-03-09T00:00:00Z,CVE-2021-24033 nodejs-react-dev-utils: function getProcessForPort concatenates input argument into a command string,CVE-2021-24033
+2021-03-09T00:00:00Z,"CVE-2021-21381 flatpak: ""file forwarding"" feature can be used to gain unprivileged access to files",CVE-2021-21381
+2021-03-09T00:00:00Z,CVE-2021-21295 netty: possible request smuggling in HTTP/2 due missing validation,CVE-2021-21295
+2021-03-09T00:00:00Z,CVE-2020-13936 velocity: arbitrary code execution when attacker is able to modify templates,CVE-2020-13936
+2021-03-09T00:00:00Z,CVE-2020-13959 velocity: XSS in the default error page for VelocityView,CVE-2020-13959
+2021-03-09T00:00:00Z,CVE-2020-27225 eclipse: Help Subsystem does not authenticate active help requests,CVE-2020-27225
+2021-03-08T20:30:00Z,CVE-2021-3425 Red Hat AMQ Broker: discloses JDBC username and password in the application log file,CVE-2021-3425
+2021-03-08T00:00:00Z,CVE-2021-20253 ansible-tower: Privilege escalation via job isolation escape,CVE-2021-20253
+2021-03-08T00:00:00Z,CVE-2021-3424 keycloak: Internationalized domain name (IDN) homograph attack to impersonate users,CVE-2021-3424
+2021-03-08T00:00:00Z,CVE-2021-29648 kernel: DoS due to BPF subsystem does not properly consider that resolved_ids and resolved_sizes are intentionally uninitialized in the vmlinux BPF,CVE-2021-29648
+2021-03-08T00:00:00Z,CVE-2021-29950 Mozilla: Logic issue potentially leaves key material unlocked,CVE-2021-29950
+2021-03-08T00:00:00Z,CVE-2021-28902 libyang: NULL pointer dereference in read_yin_container(),CVE-2021-28902
+2021-03-08T00:00:00Z,CVE-2021-28903 libyang: recursive call to lyxml_parse_mem() lead to crash,CVE-2021-28903
+2021-03-08T00:00:00Z,CVE-2021-28905 libyang: reachable assertion in lys_node_free(),CVE-2021-28905
+2021-03-08T00:00:00Z,CVE-2021-28906 libyang: NULL pointer dereference in read_yin_leaf(),CVE-2021-28906
+2021-03-07T00:00:00Z,CVE-2021-3127 nats-server: mishandling Import Token bindings may lead to Incorrect Access Control,CVE-2021-3127
+2021-03-07T00:00:00Z,CVE-2021-28878 rust: memory safety violation in Zip implementation when next_back() and next() are used together,CVE-2021-28878
+2021-03-07T00:00:00Z,CVE-2021-3528 NooBaa: noobaa-operator leaking RPC AuthToken into log files,CVE-2021-3528
+2021-03-07T00:00:00Z,CVE-2021-28904 libyang: NULL pointer dereference in ext_get_plugin(),CVE-2021-28904
+2021-03-05T00:40:00Z,CVE-2020-35501 kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability,CVE-2020-35501
+2021-03-05T00:00:00Z,CVE-2021-27365 kernel: heap buffer overflow in the iSCSI subsystem,CVE-2021-27365
+2021-03-05T00:00:00Z,CVE-2021-27363 kernel: iscsi: unrestricted access to sessions and handles,CVE-2021-27363
+2021-03-05T00:00:00Z,CVE-2021-27364 kernel: out-of-bounds read in libiscsi module,CVE-2021-27364
+2021-03-05T00:00:00Z,CVE-2020-28502 nodejs-xmlhttprequest: Code injection through user input to xhr.send,CVE-2020-28502
+2021-03-05T00:00:00Z,CVE-2021-20278 kiali: authentication bypass when using the OpenID login strategy,CVE-2021-20278
+2021-03-05T00:00:00Z,CVE-2021-21334 containerd CRI plugin: information leak between containers via environment variables,CVE-2021-21334
+2021-03-05T00:00:00Z,CVE-2021-29264 kernel: DoS due to negative fragment size calculation in drivers/net/ethernet/freescale/gianfar.c,CVE-2021-29264
+2021-03-05T00:00:00Z,CVE-2021-28879 rust: integer overflow in the Zip implementation can lead to a buffer overflow,CVE-2021-28879
+2021-03-04T00:00:00Z,CVE-2021-28950 kernel: fuse: stall on CPU can occur because a retry loop continually finds the same bad inode,CVE-2021-28950
+2021-03-04T00:00:00Z,CVE-2021-28951 kernel: DoS because of deadlock in fs/io_uring.c,CVE-2021-28951
+2021-03-04T00:00:00Z,CVE-2021-33033 kernel: use-after-free in cipso_v4_genopt in net/ipv4/cipso_ipv4.c,CVE-2021-33033
+2021-03-03T00:00:00Z,CVE-2021-28041 openssh: double-free memory corruption may lead to arbitrary code execution,CVE-2021-28041
+2021-03-03T00:00:00Z,CVE-2021-27921 python-pillow: reported size of a contained image is not properly checked for a BLP container,CVE-2021-27921
+2021-03-03T00:00:00Z,CVE-2021-27922 python-pillow: reported size of a contained image is not properly checked for an ICNS container,CVE-2021-27922
+2021-03-03T00:00:00Z,CVE-2021-27923 python-pillow: reported size of a contained image is not properly checked for an ICO container,CVE-2021-27923
+2021-03-03T00:00:00Z,CVE-2021-20289 resteasy: Error message exposes endpoint class information,CVE-2021-20289
+2021-03-02T18:00:00Z,CVE-2020-14372 grub2: acpi command allows privileged user to load crafted ACPI tables when Secure Boot is enabled,CVE-2020-14372
+2021-03-02T18:00:00Z,CVE-2020-25632 grub2: Use-after-free in rmmod command,CVE-2020-25632
+2021-03-02T18:00:00Z,CVE-2020-25647 grub2: Out-of-bounds write in grub_usb_device_initialize(),CVE-2020-25647
+2021-03-02T18:00:00Z,CVE-2020-27749 grub2: Stack buffer overflow in grub_parser_split_cmdline(),CVE-2020-27749
+2021-03-02T18:00:00Z,CVE-2020-27779 grub2: cutmem command allows privileged user to remove memory regions when Secure Boot is enabled,CVE-2020-27779
+2021-03-02T18:00:00Z,CVE-2021-20225 grub2: Heap out-of-bounds write in short form option parser,CVE-2021-20225
+2021-03-02T18:00:00Z,CVE-2021-20233 grub2: Heap out-of-bounds write due to miscalculation of space required for quoting,CVE-2021-20233
+2021-03-02T18:00:00Z,CVE-2021-3408 grub2: heap out-of-bound write due to mis-calculation of space required for quoting,CVE-2021-3408
+2021-03-02T18:00:00Z,CVE-2021-3418 grub2: grub 2.05 reintroduced CVE-2020-15705,CVE-2021-3418
+2021-03-02T00:00:00Z,CVE-2020-25715 pki-core: XSS in the certificate search results,CVE-2020-25715
+2021-03-02T00:00:00Z,CVE-2021-20269 kernel: incorrect permissions on kdump dmesg file,CVE-2021-20269
+2021-03-02T00:00:00Z,CVE-2021-3467 jasper: NULL pointer dereference in jp2_decode() in jp2_dec.c,CVE-2021-3467
+2021-03-01T20:00:00Z,CVE-2021-21378 envoyproxy/envoy: JWT validation bypass when allow_missing is used,CVE-2021-21378
+2021-03-01T00:00:00Z,CVE-2021-20262 keycloak: missing re-authentication while updating password,CVE-2021-20262
+2021-03-01T00:00:00Z,CVE-2021-20263 QEMU: virtiofsd: 'security.capabilities' is not dropped with xattrmap option,CVE-2021-20263
+2021-03-01T00:00:00Z,CVE-2020-27067 kernel: use after free due to a race condition may lead to local escalation of privilege,CVE-2020-27067
+2021-03-01T00:00:00Z,CVE-2021-25122 tomcat: Request mix-up with h2c,CVE-2021-25122
+2021-03-01T00:00:00Z,CVE-2021-25329 tomcat: Incomplete fix for CVE-2020-9484 (RCE via session persistence),CVE-2021-25329
+2021-03-01T00:00:00Z,CVE-2021-20286 libnbd: Assertion failure in nbd_unlocked_opt_go in lib/opt.c,CVE-2021-20286
+2021-03-01T00:00:00Z,CVE-2021-22134 elasticsearch: requests do not properly apply security permissions when executing a query against a recently updated document,CVE-2021-22134
+2021-03-01T00:00:00Z,CVE-2020-7929 mongodb: Denial of service through specially crafted regex,CVE-2020-7929
+2021-03-01T00:00:00Z,CVE-2018-25004 mongodb: Denial of service through generic explain command on a find query,CVE-2018-25004
+2021-03-01T00:00:00Z,CVE-2021-3446 libtpms: return of wrong initialization vector when certain symmetric ciphers are used,CVE-2021-3446
+2021-03-01T00:00:00Z,CVE-2021-28650 gnome-autoar: directory traversal during extraction because it lacks a check of whether a file's parent is a symlink in certain complex situations,CVE-2021-28650
+2021-03-01T00:00:00Z,CVE-2021-23346 html-parse-stringify: Regular Expression DoS,CVE-2021-23346
+2021-02-28T00:00:00Z,CVE-2021-25289 python-pillow: insufficent fix for CVE-2020-35654 due to incorrect error checking in TiffDecode.c,CVE-2021-25289
+2021-02-28T00:00:00Z,CVE-2021-25290 python-pillow: negative-offset memcpy with an invalid size in TiffDecode.c,CVE-2021-25290
+2021-02-28T00:00:00Z,CVE-2021-25291 python-pillow: out-of-bounds read in TiffReadRGBATile in TiffDecode.c,CVE-2021-25291
+2021-02-28T00:00:00Z,CVE-2021-25292 python-pillow: backtracking regex in PDF parser could be used as a DOS attack,CVE-2021-25292
+2021-02-28T00:00:00Z,CVE-2021-25293 python-pillow: out-of-bounds read in SGIRleDecode.c,CVE-2021-25293
+2021-02-26T00:00:00Z,"CVE-2020-27223 jetty: request containing multiple Accept headers with a large number of ""quality"" parameters may lead to DoS",CVE-2020-27223
+2021-02-26T00:00:00Z,CVE-2021-30178 kernel: NULL pointer dereference in synic_get function in arch/x86/kvm/hyperv.c for certain accesses to the SynIC Hyper-V context,CVE-2021-30178
+2021-02-25T00:00:00Z,CVE-2021-3197 salt: Shell injection by including ProxyCommand in an argument,CVE-2021-3197
+2021-02-25T00:00:00Z,CVE-2021-25281 salt: API does not honor eAuth credentials for the wheel_async client,CVE-2021-25281
+2021-02-25T00:00:00Z,CVE-2021-25282 salt: Directory traversal in wheel.pillar_roots.write,CVE-2021-25282
+2021-02-25T00:00:00Z,CVE-2021-25283 salt: Jinja renderer does not protect against server-side template injection attacks,CVE-2021-25283
+2021-02-25T00:00:00Z,CVE-2021-3148 salt: Command injection in salt.utils.thin.gen_thin(),CVE-2021-3148
+2021-02-25T00:00:00Z,CVE-2021-25284 salt: webutils write passwords in cleartext to /var/log/salt/minion,CVE-2021-25284
+2021-02-25T00:00:00Z,CVE-2020-35662 salt: Certain modules do not always validated SSL certificates,CVE-2020-35662
+2021-02-25T00:00:00Z,CVE-2021-3144 salt: eauth tokens can be used once after expiration,CVE-2021-3144
+2021-02-25T00:00:00Z,"CVE-2020-28972 salt: Authentication to vCenter, vSphere, and ESXi servers does not always validate the SSL/TLS certificate",CVE-2020-28972
+2021-02-25T00:00:00Z,CVE-2020-28243 salt: Privilege escalation on a minion when an unprivileged user is able to create files in any non-blacklisted directory,CVE-2020-28243
+2021-02-25T00:00:00Z,CVE-2021-27803 wpa_supplicant: Use-after-free in P2P provision discovery processing,CVE-2021-27803
+2021-02-25T00:00:00Z,CVE-2021-21330 python-aiohttp: Open redirect in aiohttp.web_middlewares.normalize_path_middleware,CVE-2021-21330
+2021-02-25T00:00:00Z,CVE-2021-26701 dotnet: System.Text.Encodings.Web Remote Code Execution,CVE-2021-26701
+2021-02-25T00:00:00Z,CVE-2021-24112 dotnet: Remote Code Execution Vulnerability,CVE-2021-24112
+2021-02-25T00:00:00Z,CVE-2021-24111 dotnet: remote Denial of Service vulnerability,CVE-2021-24111
+2021-02-25T00:00:00Z,CVE-2021-20309 ImagemMagick: Division by zero in WaveImage() of MagickCore/visual-effects.c,CVE-2021-20309
+2021-02-25T00:00:00Z,CVE-2021-20310 ImageMagick: Division by zero in ConvertXYZToJzazbz() of MagickCore/colorspace.c,CVE-2021-20310
+2021-02-25T00:00:00Z,CVE-2021-20311 ImageMagick: Division by zero in sRGBTransformImage() in MagickCore/colorspace.c,CVE-2021-20311
+2021-02-25T00:00:00Z,CVE-2021-20312 ImageMagick: Integer overflow in WriteTHUMBNAILImage of coders/thumbnail.c,CVE-2021-20312
+2021-02-25T00:00:00Z,CVE-2021-20313 ImageMagick: Cipher leak when the calculating signatures in TransformSignatureof MagickCore/signature.c,CVE-2021-20313
+2021-02-25T00:00:00Z,CVE-2020-36331 libwebp: out-of-bounds read in ChunkAssignData() in mux/muxinternal.c,CVE-2020-36331
+2021-02-25T00:00:00Z,CVE-2021-27815 libexif: NULL Pointer Deference may lead to DoS by uploading a malicious JPEG file,CVE-2021-27815
+2021-02-24T00:00:00Z,CVE-2021-20259 foreman: Proxmox compute resource credential leak to authenticated users,CVE-2021-20259
+2021-02-24T00:00:00Z,CVE-2021-20260 foreman: credential leak in foreman_datacenter,CVE-2021-20260
+2021-02-24T00:00:00Z,CVE-2021-27645 glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c,CVE-2021-27645
+2021-02-24T00:00:00Z,CVE-2021-3416 QEMU: net: infinite loop in loopback mode may lead to stack overflow,CVE-2021-3416
+2021-02-24T00:00:00Z,CVE-2020-11987 batik: SSRF due to improper input validation by the NodePickerPanel,CVE-2020-11987
+2021-02-24T00:00:00Z,CVE-2020-11988 xmlgraphics-commons: SSRF due to improper input validation by the XMPParser,CVE-2020-11988
+2021-02-23T00:00:00Z,CVE-2021-23969 Mozilla: Content Security Policy violation report could have contained the destination of a redirect,CVE-2021-23969
+2021-02-23T00:00:00Z,CVE-2021-23968 Mozilla: Content Security Policy violation report could have contained the destination of a redirect,CVE-2021-23968
+2021-02-23T00:00:00Z,CVE-2021-23973 Mozilla: MediaError message property could have leaked information about cross-origin resources,CVE-2021-23973
+2021-02-23T00:00:00Z,CVE-2021-23978 Mozilla: Memory safety bugs fixed in Firefox 86 and Firefox ESR 78.8,CVE-2021-23978
+2021-02-23T00:00:00Z,CVE-2021-27568 json-smart: uncaught exception may lead to crash or information disclosure,CVE-2021-27568
+2021-02-23T00:00:00Z,CVE-2021-21321 fastify-reply-from: crafted URL allows prefix scape of the proxied backend service,CVE-2021-21321
+2021-02-23T00:00:00Z,CVE-2021-21322 fastify-http-proxy: crafted URL allows prefix scape of the proxied backend service,CVE-2021-21322
+2021-02-22T00:00:00Z,CVE-2021-3481 qt: Out of bounds read in function QRadialFetchSimd from crafted svg file,CVE-2021-3481
+2021-02-22T00:00:00Z,CVE-2021-21309 redis: integer overflow when configurable limit for maximum supported bulk input size is too big on 32-bit platforms,CVE-2021-21309
+2021-02-22T00:00:00Z,CVE-2021-27516 nodejs-urijs: mishandling certain uses of backslash may lead to confidentiality compromise,CVE-2021-27516
+2021-02-22T00:00:00Z,CVE-2021-27515 nodejs-url-parse: mishandling certain uses of backslash may lead to confidentiality compromise,CVE-2021-27515
+2021-02-20T00:00:00Z,CVE-2021-22883 nodejs: HTTP2 'unknownProtocol' cause DoS by resource exhaustion,CVE-2021-22883
+2021-02-19T19:30:00Z,CVE-2021-20256 Satellite: BMC controller credential leak via API,CVE-2021-20256
+2021-02-19T00:00:00Z,CVE-2021-22112 jenkins: Privilege escalation vulnerability in bundled Spring Security library,CVE-2021-22112
+2021-02-19T00:00:00Z,"CVE-2021-23343 nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe",CVE-2021-23343
+2021-02-18T17:44:00Z,CVE-2021-3413 Satellite: Azure compute resource secret_key leak to authenticated users,CVE-2021-3413
+2021-02-18T00:00:00Z,CVE-2021-26296 myfaces: Cross-site request forgery vulnerability in Apache MyFaces,CVE-2021-26296
+2021-02-18T00:00:00Z,CVE-2020-28463 python-reportlab: Server-side request forgery via img tags,CVE-2020-28463
+2021-02-18T00:00:00Z,CVE-2021-23341 nodejs-prismjs: Regular expression denial of service via prism-asciidoc prism-rest prism-tap and prism-eiffel components,CVE-2021-23341
+2021-02-18T00:00:00Z,CVE-2021-20255 QEMU: net: eepro100: stack overflow via infinite recursion,CVE-2021-20255
+2021-02-18T00:00:00Z,CVE-2021-27379 xen: Missed flush in XSA-321 backport (XSA-366),CVE-2021-27379
+2021-02-18T00:00:00Z,CVE-2021-22884 nodejs: DNS rebinding in --inspect,CVE-2021-22884
+2021-02-17T00:00:00Z,CVE-2020-8625 bind: Buffer overflow in the SPNEGO implementation affecting GSSAPI security policy negotiation,CVE-2020-8625
+2021-02-17T00:00:00Z,CVE-2021-20250 wildfly: Information disclosure due to publicly accessible privileged actions in JBoss EJB Client,CVE-2021-20250
+2021-02-17T00:00:00Z,CVE-2020-12362 kernel: Integer overflow in Intel(R) Graphics Drivers,CVE-2020-12362
+2021-02-17T00:00:00Z,CVE-2020-12363 kernel: Improper input validation in some Intel(R) Graphics Drivers,CVE-2020-12363
+2021-02-17T00:00:00Z,CVE-2020-12364 kernel: Null pointer dereference in some Intel(R) Graphics Drivers,CVE-2020-12364
+2021-02-17T00:00:00Z,CVE-2020-24504 kernel: Uncontrolled resource consumption in some Intel(R) Ethernet E810 Adapter drivers,CVE-2020-24504
+2021-02-17T00:00:00Z,CVE-2020-24502 kernel: Improper input validation in some Intel(R) Ethernet E810 Adapter drivers,CVE-2020-24502
+2021-02-17T00:00:00Z,CVE-2020-24503 kernel: Insufficient access control in some Intel(R) Ethernet E810 Adapter drivers,CVE-2020-24503
+2021-02-17T00:00:00Z,CVE-2021-20328 mongo-java-driver: client-side field level encryption not verifying KMS host name,CVE-2021-20328
+2021-02-17T00:00:00Z,CVE-2021-27358 grafana: snapshot feature allow an unauthenticated remote attacker to trigger a DoS via a remote API call,CVE-2021-27358
+2021-02-17T00:00:00Z,CVE-2021-25315 salt: salt-api unauthenticated remote code exec,CVE-2021-25315
+2021-02-16T00:00:00Z,CVE-2021-20195 keycloak: The Account console allows stored self-XSS via impersonation mechanism,CVE-2021-20195
+2021-02-16T00:00:00Z,CVE-2021-20222 keycloak: reflected XSS attack with referrer in new account console,CVE-2021-20222
+2021-02-16T00:00:00Z,CVE-2021-23839 openssl: incorrect SSLv2 rollback protection,CVE-2021-23839
+2021-02-16T00:00:00Z,CVE-2021-23841 openssl: NULL pointer dereference in X509_issuer_and_serial_hash(),CVE-2021-23841
+2021-02-16T00:00:00Z,CVE-2021-23840 openssl: integer overflow in CipherUpdate,CVE-2021-23840
+2021-02-16T00:00:00Z,CVE-2021-20066 jsdom: improper loading of local resources,CVE-2021-20066
+2021-02-15T00:00:00Z,CVE-2020-13558 webkitgtk: use-after-free may lead to arbitrary code execution via crafted web content,CVE-2020-13558
+2021-02-15T00:00:00Z,CVE-2021-20296 OpenEXR: Segv on unknown address in Imf_2_5::hufUncompress - Null Pointer dereference,CVE-2021-20296
+2021-02-15T00:00:00Z,CVE-2021-3476 OpenEXR: Undefined-shift in Imf_2_5::unpack14,CVE-2021-3476
+2021-02-15T00:00:00Z,CVE-2021-3479 OpenEXR: Out-of-memory caused by allocation of a very large buffer,CVE-2021-3479
+2021-02-15T00:00:00Z,CVE-2021-3477 OpenEXR: Heap-buffer-overflow in Imf_2_5::DeepTiledInputFile::readPixelSampleCounts,CVE-2021-3477
+2021-02-15T00:00:00Z,CVE-2021-3478 OpenEXR: Out-of-memory in ScanLineInputFile,CVE-2021-3478
+2021-02-15T00:00:00Z,CVE-2020-36314 file-roller: directory traversal via directory symlink pointing outside of the target directory (incomplete fix for CVE-2020-11736),CVE-2020-36314
+2021-02-14T00:00:00Z,CVE-2021-27212 openldap: Assertion failure in slapd in the issuerAndThisUpdateCheck function,CVE-2021-27212
+2021-02-13T00:00:00Z,CVE-2021-23336 python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters,CVE-2021-23336
+2021-02-13T00:00:00Z,CVE-2021-3444 kernel: bpf verifier incorrect mod32 truncation,CVE-2021-3444
+2021-02-12T00:00:00Z,CVE-2021-3412 3scale: lack of brute force protection on dev portal login,CVE-2021-3412
+2021-02-12T00:00:00Z,CVE-2020-27221 IBM JDK: Stack-based buffer overflow when converting from UTF-8 characters to platform encoding,CVE-2020-27221
+2021-02-11T00:00:00Z,CVE-2021-3393 postgresql: Partition constraint violation errors leak values of denied columns,CVE-2021-3393
+2021-02-11T00:00:00Z,CVE-2021-20229 postgresql: single-column SELECT privilege enables reading all columns,CVE-2021-20229
+2021-02-11T00:00:00Z,CVE-2021-24032 zstd: Race condition allows attacker to access world-readable destination file,CVE-2021-24032
+2021-02-11T00:00:00Z,CVE-2020-13949 libthrift: potential DoS when processing untrusted payloads,CVE-2020-13949
+2021-02-11T00:00:00Z,CVE-2021-22880 rubygem-activerecord: crafted input may cause a regular expression DoS,CVE-2021-22880
+2021-02-11T00:00:00Z,CVE-2021-22881 rubygem-actionpack: open redirect vulnerability may lead to confidentiality and integrity compromise,CVE-2021-22881
+2021-02-11T00:00:00Z,CVE-2021-24031 zstd: adds read permissions to files while being compressed or uncompressed,CVE-2021-24031
+2021-02-11T00:00:00Z,CVE-2021-27292 nodejs-ua-parser-js: ReDoS via malicious User-Agent header,CVE-2021-27292
+2021-02-11T00:00:00Z,CVE-2019-19005 autotrace: bitmap double free in main.c allows attackers to cause an unspecified impact,CVE-2019-19005
+2021-02-11T00:00:00Z,CVE-2019-19004 autotrace: integer overflow in input-bmp.c,CVE-2019-19004
+2021-02-10T12:00:00Z,CVE-2020-17525 subversion: Remote unauthenticated denial of service in mod_authz_svn,CVE-2020-17525
+2021-02-10T00:00:00Z,CVE-2020-1717 Keycloak: A logged in user can do an account email enumeration attack,CVE-2020-1717
+2021-02-10T00:00:00Z,CVE-2020-10734 keycloak: OIDC logout endpoint CSRF,CVE-2020-10734
+2021-02-10T00:00:00Z,CVE-2020-35498 openvswitch: limitation in the OVS packet parsing in userspace leads to DoS,CVE-2020-35498
+2021-02-10T00:00:00Z,CVE-2021-20188 podman: container users permissions are not respected in privileged containers,CVE-2021-20188
+2021-02-10T00:00:00Z,CVE-2021-26937 screen: crash when processing combining chars,CVE-2021-26937
+2021-02-10T00:00:00Z,CVE-2020-7021 elasticsearch: Information disclosure via audit logging with emit_request_body option enabled,CVE-2020-7021
+2021-02-10T00:00:00Z,CVE-2021-27017 puppet-agent: Deserialization of untrusted data,CVE-2021-27017
+2021-02-10T00:00:00Z,CVE-2020-26299 nodejs-ftp-srv: Path traversal in path.resolve function,CVE-2020-26299
+2021-02-10T00:00:00Z,CVE-2021-27135 xterm: crash when processing combining characters,CVE-2021-27135
+2021-02-10T00:00:00Z,CVE-2021-27218 glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform,CVE-2021-27218
+2021-02-10T00:00:00Z,CVE-2021-20257 QEMU: net: e1000: infinite loop while processing transmit descriptors,CVE-2021-20257
+2021-02-09T18:52:00Z,CVE-2021-1721 dotnet: certificate chain building recursion Denial of Service,CVE-2021-1721
+2021-02-09T00:00:00Z,CVE-2021-21290 netty: Information disclosure via the local system temporary directory,CVE-2021-21290
+2021-02-09T00:00:00Z,CVE-2019-17582 libzip: use-after-free in the _zip_dirent_read function of zip_dirent.c,CVE-2019-17582
+2021-02-09T00:00:00Z,CVE-2021-28116 squid: out-of-bounds read in WCCP protocol data may lead to information disclosure,CVE-2021-28116
+2021-02-08T00:00:00Z,CVE-2021-20198 openshift/installer: Bootstrap nodes allow anonymous authentication on kubelet port 10250,CVE-2021-20198
+2021-02-08T00:00:00Z,CVE-2021-3344 openshift/builder: privilege escalation during container image builds via mounted secrets,CVE-2021-3344
+2021-02-08T00:00:00Z,CVE-2021-3414 satellite: granular permissions related to organizations with other permissions may lead to confidentiality and integrity breach,CVE-2021-3414
+2021-02-08T00:00:00Z,CVE-2021-21306 nodejs-marked: Regular expression denial of service,CVE-2021-21306
+2021-02-05T00:00:00Z,CVE-2021-20206 containernetworking-cni: Arbitrary path injection via type field in CNI configuration,CVE-2021-20206
+2021-02-05T00:00:00Z,CVE-2021-26708 kernel: race conditions caused by wrong locking in net/vmw_vsock/af_vsock.c,CVE-2021-26708
+2021-02-05T00:00:00Z,CVE-2021-20238 openshift/machine-config-operator: unauthenticated access to Machine Config Server ignition config,CVE-2021-20238
+2021-02-05T00:00:00Z,CVE-2020-16048 Mozilla: Buffer overflow in depth pitch calculations for compressed textures,CVE-2020-16048
+2021-02-05T00:00:00Z,CVE-2021-21303 helm: Unsanitized data displayed directly to user's terminal,CVE-2021-21303
+2021-02-04T00:00:00Z,CVE-2021-20226 kernel: use-after-free in io_uring feature,CVE-2021-20226
+2021-02-04T00:00:00Z,CVE-2021-20220 undertow: Possible regression in fix for CVE-2020-10687,CVE-2021-20220
+2021-02-04T00:00:00Z,CVE-2021-0326 wpa_supplicant: P2P group information processing vulnerability,CVE-2021-0326
+2021-02-04T00:00:00Z,CVE-2021-27219 glib: integer overflow in g_bytes_new function on 64-bit platforms due to an implicit cast from 64 bits to 32 bits,CVE-2021-27219
+2021-02-04T00:00:00Z,CVE-2021-22133 go.elastic.co/apm: leaks sensitive HTTP headers during panic,CVE-2021-22133
+2021-02-04T00:00:00Z,CVE-2021-28876 rust: panic safety issue in Zip implementation,CVE-2021-28876
+2021-02-04T00:00:00Z,CVE-2021-31879 wget: authorization header disclosure on redirect,CVE-2021-31879
+2021-02-03T00:00:00Z,CVE-2021-20246 ImageMagick: Division by zero in ScaleResampleFilter in MagickCore/resample.c,CVE-2021-20246
+2021-02-03T00:00:00Z,CVE-2021-20243 ImageMagick: Division by zero in GetResizeFilterWeight in MagickCore/resize.c,CVE-2021-20243
+2021-02-03T00:00:00Z,CVE-2021-20244 ImageMagick: Division by zero in ImplodeImage in MagickCore/visual-effects.c,CVE-2021-20244
+2021-02-03T00:00:00Z,CVE-2020-27222 californium-core: DTLS - DoS vulnerability for certificate based handshakes,CVE-2020-27222
+2021-02-03T00:00:00Z,CVE-2020-29582 kotlin: vulnerable Java API was used for temporary file and folder creation which could result in information disclosure,CVE-2020-29582
+2021-02-02T00:00:00Z,CVE-2021-20182 openshift: builder allows read and write of block devices,CVE-2021-20182
+2021-02-02T00:00:00Z,CVE-2021-3392 QEMU: scsi: mptsas: use-after-free while processing io requests,CVE-2021-3392
+2021-02-02T00:00:00Z,CVE-2020-17516 cassandra: internode encryption enforcement vulnerability,CVE-2020-17516
+2021-02-02T00:00:00Z,CVE-2021-20221 qemu: out-of-bound heap buffer access via an interrupt ID field,CVE-2021-20221
+2021-02-02T00:00:00Z,CVE-2021-21284 docker: access to remapped root allows privilege escalation to real root,CVE-2021-21284
+2021-02-02T00:00:00Z,CVE-2021-23980 python-bleach: Mutation cross-site scripting in bleach.clean,CVE-2021-23980
+2021-02-02T00:00:00Z,CVE-2019-25017 krb5-appl: Improper validation of object names allows malicious server to overwrite files via rcp client,CVE-2019-25017
+2021-02-02T00:00:00Z,CVE-2019-25018 krb5-appl: Improper directory name validation allows malicious server to bypass access restrictions,CVE-2019-25018
+2021-02-02T00:00:00Z,CVE-2021-20242 ImageMagick: Division by zero in GenerateDifferentialNoise in MagickCore/gem.c,CVE-2021-20242
+2021-02-01T10:00:00Z,CVE-2021-3281 django: Potential directory-traversal via archive.extract(),CVE-2021-3281
+2021-02-01T00:00:00Z,CVE-2020-10001 cups: access to uninitialized buffer in ipp.c,CVE-2020-10001
+2021-02-01T00:00:00Z,CVE-2021-3349 evolution-data-server: mail is shown as having a valid signature from an unknown identifier on a previously trusted key,CVE-2021-3349
+2021-02-01T00:00:00Z,CVE-2021-20239 kernel: setsockopt System Call Untrusted Pointer Dereference Information Disclosure,CVE-2021-20239
+2021-02-01T00:00:00Z,CVE-2021-21289 rubygem-mechanize: OS command injection via untrusted input to Ruby's Kernel.open method,CVE-2021-21289
+2021-02-01T00:00:00Z,CVE-2021-21285 docker: daemon crash during image pull of malicious image,CVE-2021-21285
+2021-02-01T00:00:00Z,CVE-2020-28493 python-jinja2: ReDOS vulnerability due to the sub-pattern,CVE-2020-28493
+2021-02-01T00:00:00Z,CVE-2021-20245 ImageMagick: Division by zero in WriteAnimatedWEBPImage() in coders/webp.c,CVE-2021-20245
+2021-02-01T00:00:00Z,CVE-2021-20241 ImageMagick: Division by zero in WriteJP2Image() in coders/jp2.c,CVE-2021-20241
+2021-01-31T00:00:00Z,CVE-2021-3549 binutils: heap-based buffer overflow in avr_elf32_load_records_from_section() via large section parameter,CVE-2021-3549
+2021-01-30T00:00:00Z,CVE-2021-20203 qemu: Failed malloc in vmxnet3_activate_device() in hw/net/vmxnet3.c,CVE-2021-20203
+2021-01-29T00:00:00Z,CVE-2021-26926 jasper: Out of bounds read in jp2_decode() in jp2_dec.c,CVE-2021-26926
+2021-01-29T00:00:00Z,CVE-2021-26927 jasper: NULL pointer dereference in jp2_decode() in jp2_dec.c,CVE-2021-26927
+2021-01-29T00:00:00Z,CVE-2021-22174 wireshark: USB HID dissector could crash,CVE-2021-22174
+2021-01-29T00:00:00Z,CVE-2021-22173 wireshark: USB HID dissector memory leak,CVE-2021-22173
+2021-01-29T00:00:00Z,CVE-2021-25646 druid: Authenticated javascript code injection,CVE-2021-25646
+2021-01-29T00:00:00Z,CVE-2021-3345 libgcrypt: Heap buffer overflow in the block buffer management code,CVE-2021-3345
+2021-01-29T00:00:00Z,CVE-2021-20268 kernel: eBPF Improper Input Validation,CVE-2021-20268
+2021-01-29T00:00:00Z,CVE-2021-20228 ansible: basic.py no_log with fallback option,CVE-2021-20228
+2021-01-29T00:00:00Z,CVE-2021-3377 nodejs-ansi_up: XSS due to insufficient URL sanitization,CVE-2021-3377
+2021-01-28T00:00:00Z,CVE-2021-3348 kernel: Use-after-free in ndb_queue_rq() in drivers/block/nbd.c,CVE-2021-3348
+2021-01-28T00:00:00Z,CVE-2021-3347 kernel: Use after free via PI futex state,CVE-2021-3347
+2021-01-28T00:00:00Z,CVE-2020-28473 python-bottle: Web Cache Poisoning by using a vector called parameter cloaking may lead to integrity and availability compromise,CVE-2020-28473
+2021-01-27T00:00:00Z,CVE-2021-3272 jasper: Heap-based buffer over-read in jp2_decode() in jp2_dec.c,CVE-2021-3272
+2021-01-27T00:00:00Z,CVE-2021-3326 glibc: Assertion failure in ISO-2022-JP-3 gconv module related to combining characters,CVE-2021-3326
+2021-01-27T00:00:00Z,CVE-2020-36193 Archive_Tar: directory traversal due to inadequate checking of symbolic links,CVE-2020-36193
+2021-01-26T18:00:00Z,CVE-2021-3156 sudo: Heap buffer overflow in argument parsing,CVE-2021-3156
+2021-01-26T00:00:00Z,CVE-2021-23953 Mozilla: Cross-origin information leakage via redirected PDF requests,CVE-2021-23953
+2021-01-26T00:00:00Z,CVE-2021-23954 Mozilla: Type confusion when using logical assignment operators in JavaScript switch statements,CVE-2021-23954
+2021-01-26T00:00:00Z,CVE-2020-26976 Mozilla: HTTPS pages could have been intercepted by a registered service worker when they should not have been,CVE-2020-26976
+2021-01-26T00:00:00Z,CVE-2021-23960 Mozilla: Use-after-poison for incorrectly redeclared JavaScript variables during GC,CVE-2021-23960
+2021-01-26T00:00:00Z,CVE-2021-23964 Mozilla: Memory safety bugs fixed in Firefox 85 and Firefox ESR 78.7,CVE-2021-23964
+2021-01-26T00:00:00Z,CVE-2021-21615 jenkins: Filesystem traversal by privileged users,CVE-2021-21615
+2021-01-26T00:00:00Z,CVE-2020-36221 openldap: Integer underflow in serialNumberAndIssuerCheck in schema_init.c,CVE-2020-36221
+2021-01-26T00:00:00Z,CVE-2020-36222 openldap: Assertion failure in slapd in the saslAuthzTo validation,CVE-2020-36222
+2021-01-26T00:00:00Z,CVE-2020-36223 openldap: Out-of-bounds read in Values Return Filter,CVE-2020-36223
+2021-01-26T00:00:00Z,CVE-2020-36224 openldap: Invalid pointer free in the saslAuthzTo processing,CVE-2020-36224
+2021-01-26T00:00:00Z,CVE-2020-36225 openldap: Double free in the saslAuthzTo processing,CVE-2020-36225
+2021-01-26T00:00:00Z,CVE-2020-36226 openldap: Denial of service via length miscalculation in slap_parse_user,CVE-2020-36226
+2021-01-26T00:00:00Z,CVE-2020-36227 openldap: Infinite loop in slapd with the cancel_extop Cancel operation,CVE-2020-36227
+2021-01-26T00:00:00Z,CVE-2020-36228 openldap: Integer underflow in issuerAndThisUpdateCheck in schema_init.c,CVE-2020-36228
+2021-01-26T00:00:00Z,CVE-2020-36229 openldap: Type confusion in ad_keystring in ad.c,CVE-2020-36229
+2021-01-26T00:00:00Z,CVE-2020-36230 openldap: Assertion failure in ber_next_element in decode.c,CVE-2020-36230
+2021-01-26T00:00:00Z,CVE-2020-15685 Mozilla: IMAP Response Injection when using STARTTLS,CVE-2020-15685
+2021-01-26T00:00:00Z,CVE-2021-26707 nodejs-merge-deep: Prototype pollution of Object.prototype via a constructor payload,CVE-2021-26707
+2021-01-26T00:00:00Z,CVE-2020-9492 hadoop: WebHDFS client might send SPNEGO authorization header,CVE-2020-9492
+2021-01-26T00:00:00Z,CVE-2021-21702 php: NULL pointer dereference in SoapClient,CVE-2021-21702
+2021-01-26T00:00:00Z,"CVE-2021-26540 sanitize-html: improper validation of hostnames set by the ""allowedIframeHostnames"" option can lead to bypass hostname whitelist for iframe element",CVE-2021-26540
+2021-01-25T00:00:00Z,CVE-2020-27782 undertow: special character in query results in server errors,CVE-2020-27782
+2021-01-24T00:00:00Z,CVE-2021-3428 kernel: integer overflow in ext4_es_cache_extent,CVE-2021-3428
+2021-01-23T00:00:00Z,CVE-2021-20196 QEMU: block: fdc: null pointer dereference may lead to guest crash,CVE-2021-20196
+2021-01-22T10:00:00Z,CVE-2021-20194 kernel: heap overflow in __cgroup_bpf_run_filter_getsockopt(),CVE-2021-20194
+2021-01-22T00:00:00Z,CVE-2021-21272 oras: zip-slip vulnerability via oras-pull,CVE-2021-21272
+2021-01-22T00:00:00Z,CVE-2021-20252 3scale: missing date range handling on database query,CVE-2021-20252
+2021-01-22T00:00:00Z,CVE-2021-26539 sanitize-html: improper handling of internationalized domain name (IDN) can lead to bypass hostname whitelist validation,CVE-2021-26539
+2021-01-21T00:00:00Z,CVE-2020-35517 QEMU: virtiofsd: potential privileged host device access from guest,CVE-2020-35517
+2021-01-21T00:00:00Z,CVE-2020-8025 pcp: Insecure permission of /var/lib/pcp/tmp/ directories on SUSE,CVE-2020-8025
+2021-01-21T00:00:00Z,"CVE-2021-20227 sqlite: potential use-after-free bug when processing  a subquery with both a correlated WHERE clause and a ""HAVING 0"" clause and where the parent query is an aggregate",CVE-2021-20227
+2021-01-20T00:00:00Z,CVE-2021-3114 golang: crypto/elliptic: incorrect operations on the P-224 curve,CVE-2021-3114
+2021-01-20T00:00:00Z,CVE-2021-3115 golang: cmd/go: packages using cgo can cause arbitrary code execution at build time,CVE-2021-3115
+2021-01-20T00:00:00Z,CVE-2020-35217 vertx-web: performs an incorrect CSRF verification,CVE-2020-35217
+2021-01-20T00:00:00Z,CVE-2021-23326 graphql-tools/git-loader: exec and execSync in packages/loaders/git/src/load-git.ts allows arbitrary command injection.,CVE-2021-23326
+2021-01-20T00:00:00Z,CVE-2021-20326 mongodb: Authorized user may trigger denial of service via find query,CVE-2021-20326
+2021-01-19T00:00:00Z,CVE-2020-1725 keycloak-gatekeeper: improper usage of parsed claims for authorization leads to improper resource access,CVE-2020-1725
+2021-01-19T00:00:00Z,CVE-2020-1723 keycloak: logout endpoint /oauth/logout?redirect=url can be abused to redirect logged in users to arbitrary web pages,CVE-2020-1723
+2021-01-19T00:00:00Z,CVE-2020-14359 keycloak-gatekeeper: gatekeeper bypass via cURL when using lower case HTTP headers,CVE-2020-14359
+2021-01-19T00:00:00Z,CVE-2020-25681 dnsmasq: heap-based buffer overflow in sort_rrset() when DNSSEC is enabled,CVE-2020-25681
+2021-01-19T00:00:00Z,CVE-2020-25682 dnsmasq: buffer overflow in extract_name() due to missing length check when DNSSEC is enabled,CVE-2020-25682
+2021-01-19T00:00:00Z,CVE-2020-25683 dnsmasq: heap-based buffer overflow with large memcpy in get_rdata() when DNSSEC is enabled,CVE-2020-25683
+2021-01-19T00:00:00Z,CVE-2020-25684 dnsmasq: loose address/port check in reply_query() makes forging replies easier for an off-path attacker,CVE-2020-25684
+2021-01-19T00:00:00Z,CVE-2020-25685 dnsmasq: loose query name check in reply_query() makes forging replies easier for an off-path attacker,CVE-2020-25685
+2021-01-19T00:00:00Z,CVE-2020-25686 dnsmasq: multiple queries forwarded for the same name makes forging replies easier for an off-path attacker,CVE-2020-25686
+2021-01-19T00:00:00Z,CVE-2020-25687 dnsmasq: heap-based buffer overflow with large memcpy in sort_rrset() when DNSSEC is enabled,CVE-2020-25687
+2021-01-19T00:00:00Z,CVE-2020-28477 nodejs-immer: prototype pollution may lead to DoS or remote code execution,CVE-2020-28477
+2021-01-19T00:00:00Z,CVE-2021-3177 python: Stack-based buffer overflow in PyCArg_repr in _ctypes/callproc.c,CVE-2021-3177
+2021-01-19T00:00:00Z,CVE-2021-3178 kernel: path traversal in fs/nfsd/nfs3xdr.c may lead to Information Disclosure or RCE,CVE-2021-3178
+2021-01-19T00:00:00Z,CVE-2021-3181 mutt: Memory leak when parsing rfc822 group addresses,CVE-2021-3181
+2021-01-19T00:00:00Z,CVE-2020-14409 SDL2: Integer overflow in SDL_BlitCopy in video/SDL_blit_copy.c via a crafted .BMP file,CVE-2020-14409
+2021-01-19T00:00:00Z,CVE-2020-14410 SDL2: Heap-based buffer over-read in Blit_3or4_to_3or4__inversed_rgb in video/SDL_blit_N.c via a crafted .BMP file,CVE-2020-14410
+2021-01-19T00:00:00Z,CVE-2021-1998 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-1998
+2021-01-19T00:00:00Z,CVE-2021-2001 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2001
+2021-01-19T00:00:00Z,CVE-2021-2002 mysql: Server: Replication unspecified vulnerability (CPU Jan 2021),CVE-2021-2002
+2021-01-19T00:00:00Z,CVE-2021-2006 mysql: C API unspecified vulnerability (CPU Jan 2021),CVE-2021-2006
+2021-01-19T00:00:00Z,CVE-2021-2007 mysql: C API unspecified vulnerability (CPU Jan 2021),CVE-2021-2007
+2021-01-19T00:00:00Z,CVE-2021-2010 mysql: C API unspecified vulnerability (CPU Jan 2021),CVE-2021-2010
+2021-01-19T00:00:00Z,CVE-2021-2011 mysql: C API unspecified vulnerability (CPU Jan 2021),CVE-2021-2011
+2021-01-19T00:00:00Z,CVE-2021-2014 mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Jan 2021),CVE-2021-2014
+2021-01-19T00:00:00Z,CVE-2021-2019 mysql: Server: Security: Privileges unspecified vulnerability (CPU Jan 2021),CVE-2021-2019
+2021-01-19T00:00:00Z,CVE-2021-2020 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2020
+2021-01-19T00:00:00Z,CVE-2021-2021 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2021
+2021-01-19T00:00:00Z,CVE-2021-2022 mysql: InnoDB unspecified vulnerability (CPU Jan 2021),CVE-2021-2022
+2021-01-19T00:00:00Z,CVE-2021-2024 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2024
+2021-01-19T00:00:00Z,CVE-2021-2028 mysql: InnoDB unspecified vulnerability (CPU Jan 2021),CVE-2021-2028
+2021-01-19T00:00:00Z,CVE-2021-2030 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2030
+2021-01-19T00:00:00Z,CVE-2021-2031 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2031
+2021-01-19T00:00:00Z,CVE-2021-2032 mysql: Information Schema unspecified vulnerability (CPU Jan 2021),CVE-2021-2032
+2021-01-19T00:00:00Z,CVE-2021-2036 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2036
+2021-01-19T00:00:00Z,CVE-2021-2038 mysql: Server: Components Services unspecified vulnerability (CPU Jan 2021),CVE-2021-2038
+2021-01-19T00:00:00Z,CVE-2021-2042 mysql: InnoDB unspecified vulnerability (CPU Jan 2021),CVE-2021-2042
+2021-01-19T00:00:00Z,CVE-2021-2046 mysql: Server: Stored Procedure unspecified vulnerability (CPU Jan 2021),CVE-2021-2046
+2021-01-19T00:00:00Z,CVE-2021-2048 mysql: InnoDB unspecified vulnerability (CPU Jan 2021),CVE-2021-2048
+2021-01-19T00:00:00Z,CVE-2021-2055 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2055
+2021-01-19T00:00:00Z,CVE-2021-2058 mysql: Server: Locking unspecified vulnerability (CPU Jan 2021),CVE-2021-2058
+2021-01-19T00:00:00Z,CVE-2021-2060 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2060
+2021-01-19T00:00:00Z,CVE-2021-2061 mysql: Server: DDL unspecified vulnerability (CPU Jan 2021),CVE-2021-2061
+2021-01-19T00:00:00Z,CVE-2021-2065 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2065
+2021-01-19T00:00:00Z,CVE-2021-2070 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2070
+2021-01-19T00:00:00Z,CVE-2021-2072 mysql: Server: Stored Procedure unspecified vulnerability (CPU Jan 2021),CVE-2021-2072
+2021-01-19T00:00:00Z,CVE-2021-2076 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2076
+2021-01-19T00:00:00Z,CVE-2021-2087 mysql: Server: DML unspecified vulnerability (CPU Jan 2021),CVE-2021-2087
+2021-01-19T00:00:00Z,CVE-2021-2088 mysql: Server: DML unspecified vulnerability (CPU Jan 2021),CVE-2021-2088
+2021-01-19T00:00:00Z,CVE-2021-2122 mysql: Server: DDL unspecified vulnerability (CPU Jan 2021),CVE-2021-2122
+2021-01-19T00:00:00Z,CVE-2021-2081 mysql: Server: Stored Procedure unspecified vulnerability (CPU Jan 2021),CVE-2021-2081
+2021-01-19T00:00:00Z,CVE-2021-2056 mysql: Server: DML unspecified vulnerability (CPU Jan 2021),CVE-2021-2056
+2021-01-19T00:00:00Z,CVE-2021-2016 mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021),CVE-2021-2016
+2021-01-19T00:00:00Z,CVE-2021-2012 mysql: Server: Security: Privileges unspecified vulnerability (CPU Jan 2021),CVE-2021-2012
+2021-01-19T00:00:00Z,CVE-2021-2009 mysql: Server: Security: Roles unspecified vulnerability (CPU Jan 2021),CVE-2021-2009
+2021-01-19T00:00:00Z,CVE-2021-20240 gdk-pixbuf: integer wraparound in the GIF loader of gdk-pixbuf via crafted input leads to segmentation fault,CVE-2021-20240
+2021-01-18T00:00:00Z,CVE-2020-0465 kernel: out of bounds write in hid-multitouch.c may lead to escalation of privilege,CVE-2020-0465
+2021-01-18T00:00:00Z,CVE-2020-0444 kernel: bad kfree in auditfilter.c may lead to escalation of privilege,CVE-2020-0444
+2021-01-18T00:00:00Z,CVE-2020-0466 kernel: use after free in eventpoll.c may lead to escalation of privilege,CVE-2020-0466
+2021-01-18T00:00:00Z,CVE-2020-28476 python-tornado: Web Cache Poisoning by using a vector called parameter cloaking may lead to Integrity and Availability compromise,CVE-2020-28476
+2021-01-17T00:00:00Z,CVE-2021-20193 tar: Memory leak in read_header() in list.c,CVE-2021-20193
+2021-01-16T00:00:00Z,"CVE-2021-20190 jackson-databind: mishandles the interaction between serialization gadgets and typing, related to javax.swing",CVE-2021-20190
+2021-01-16T00:00:00Z,CVE-2020-0404 kernel: avoid cyclic entity chains due to malformed USB descriptors,CVE-2020-0404
+2021-01-16T00:00:00Z,CVE-2021-28877 rust: memory safety violation in Zip implementation for nested iter::Zips,CVE-2021-28877
+2021-01-15T00:00:00Z,CVE-2021-20191 ansible: multiple modules expose secured values,CVE-2021-20191
+2021-01-15T00:00:00Z,CVE-2020-35733 erlang: accepts and trusts an invalid X.509 certificate chain,CVE-2020-35733
+2021-01-14T00:00:00Z,CVE-2021-24122 tomcat: Information disclosure when using NTFS file system,CVE-2021-24122
+2021-01-14T00:00:00Z,CVE-2021-21261 flatpak: sandbox escape via spawn portal,CVE-2021-21261
+2021-01-14T00:00:00Z,CVE-2020-0431 kernel: possible out of bounds write in kbd_keycode of keyboard.c,CVE-2020-0431
+2021-01-14T00:00:00Z,CVE-2021-22132 elasticsearch: executing async search improperly stores HTTP headers leading to information disclosure,CVE-2021-22132
+2021-01-14T00:00:00Z,CVE-2021-20181 qemu: 9pfs: TOCTOU privilege escalation vulnerability,CVE-2021-20181
+2021-01-14T00:00:00Z,libvirt: nodedev-list crash on host with grid host driver installed,CVE-2021-3556
+2021-01-13T00:00:00Z,CVE-2020-28374 kernel: SCSI target (LIO) write to any block on ILO backstore,CVE-2020-28374
+2021-01-13T00:00:00Z,CVE-2021-20180 ansible module: bitbucket_pipeline_variable exposes secured values,CVE-2021-20180
+2021-01-13T00:00:00Z,CVE-2021-3139 tcmu-runner: SCSI target (LIO) write to any block on ILO backstore,CVE-2021-3139
+2021-01-13T00:00:00Z,CVE-2020-27827 lldp/openvswitch: denial of service via externally triggered memory leak,CVE-2020-27827
+2021-01-13T00:00:00Z,CVE-2021-23926 xmlbeans: allowed malicious XML input may lead to XML Entity Expansion attack,CVE-2021-23926
+2021-01-13T00:00:00Z,CVE-2021-21608 jenkins: Stored XSS vulnerability in button labels,CVE-2021-21608
+2021-01-13T00:00:00Z,CVE-2021-21609 jenkins:  Missing permission check for paths with specific prefix,CVE-2021-21609
+2021-01-13T00:00:00Z,CVE-2021-21605 jenkins:  Path traversal vulnerability in agent names,CVE-2021-21605
+2021-01-13T00:00:00Z,CVE-2021-21611 jenkins:  Stored XSS vulnerability on new item page,CVE-2021-21611
+2021-01-13T00:00:00Z,CVE-2021-21610 jenkins:  Reflected XSS vulnerability in markup formatter preview,CVE-2021-21610
+2021-01-13T00:00:00Z,CVE-2021-21607 jenkins:  Excessive memory allocation in graph URLs leads to denial of service,CVE-2021-21607
+2021-01-13T00:00:00Z,CVE-2021-21604 jenkins:  Improper handling of REST API XML deserialization errors,CVE-2021-21604
+2021-01-13T00:00:00Z,CVE-2021-21606 jenkins:  Arbitrary file existence check in file fingerprints,CVE-2021-21606
+2021-01-13T00:00:00Z,CVE-2021-21603 jenkins:  XSS vulnerability in notification bar,CVE-2021-21603
+2021-01-13T00:00:00Z,CVE-2021-21602 jenkins: Arbitrary file read vulnerability in workspace browsers,CVE-2021-21602
+2021-01-12T17:00:00Z,CVE-2021-1723 dotnet: ASP.NET Core Callbacks outside of locks cause Krestel deadlock when using HTTP2,CVE-2021-1723
+2021-01-12T04:35:00Z,CVE-2021-20218 fabric8-kubernetes-client: vulnerable to a path traversal leading to integrity and availability compromise,CVE-2021-20218
+2021-01-12T00:00:00Z,CVE-2020-8570 kubernetes-client: Path Traversal bug in the Java kubernetes client,CVE-2020-8570
+2021-01-12T00:00:00Z,CVE-2020-28469 nodejs-glob-parent: Regular expression denial of service,CVE-2020-28469
+2021-01-11T00:00:00Z,CVE-2021-20178 ansible: user data leak in snmp_facts module,CVE-2021-20178
+2021-01-11T00:00:00Z,CVE-2021-23239 sudo: possible directory existence test due to race condition in sudoedit,CVE-2021-23239
+2021-01-11T00:00:00Z,CVE-2021-23240 sudo: symbolic link attack in SELinux-enabled sudoedit,CVE-2021-23240
+2021-01-11T00:00:00Z,CVE-2020-26298 rubygem-redcarpet: does not escape HTML when processing quotes which could result in XSS vulnerability,CVE-2020-26298
+2021-01-11T00:00:00Z,CVE-2021-0342 kernel: use after free in tun_get_user of tun.c could lead to local escalation of privilege,CVE-2021-0342
+2021-01-11T00:00:00Z,CVE-2021-3121 gogo/protobuf: plugin/unmarshal/unmarshal.go lacks certain index validation,CVE-2021-3121
+2021-01-11T00:00:00Z,CVE-2020-24025 nodejs-node-sass:  Certificate validation is disabled when requesting binaries,CVE-2020-24025
+2021-01-11T00:00:00Z,CVE-2021-27291 python-pygments: ReDos via crafted malicious input,CVE-2021-27291
+2021-01-10T00:00:00Z,CVE-2021-28875 rust: heap-based buffer overflow in read_to_end() because it does not validate the return value from Read in an unsafe context,CVE-2021-28875
+2021-01-09T00:00:00Z,CVE-2021-21240 python-httplib2: Regular expression denial of service via malicious header,CVE-2021-21240
+2021-01-08T00:00:00Z,CVE-2020-35131 cockpit: registerCriteriaFunction in lib/MongoLite/Database.php allows for a Remote Command Execution via custom php code injection,CVE-2020-35131
+2021-01-08T00:00:00Z,CVE-2021-3419 QEMU: net: rtl8139: stack overflow induced by infinite recursion issue,CVE-2021-3419
+2021-01-07T00:00:00Z,CVE-2021-20197 binutils: race window allows users to own arbitrary files,CVE-2021-20197
+2021-01-06T00:00:00Z,CVE-2020-16044 Mozilla: Use-after-free write when handling a malicious COOKIE-ECHO SCTP chunk,CVE-2020-16044
+2021-01-06T00:00:00Z,CVE-2021-20176 ImageMagick: processing crafted file leads to division by zero,CVE-2021-20176
+2021-01-05T00:00:00Z,CVE-2020-17518 apache-flink: directory traversal attack allows remote file writing through the REST API,CVE-2020-17518
+2021-01-05T00:00:00Z,CVE-2020-17519 apache-flink: directory traversal attack allows reading remote files through the REST API,CVE-2020-17519
+2021-01-05T00:00:00Z,CVE-2021-20189 ImageMagick: processing crafted file leads to impact on availabiity,CVE-2021-20189
+2021-01-04T00:00:00Z,CVE-2020-35509 keycloak: X509 Direct Grant Auth does not verify certificate timestamp validity,CVE-2020-35509
+2021-01-04T00:00:00Z,CVE-2020-24386 dovecot: IMAP hibernation function allows mail access,CVE-2020-24386
+2021-01-04T00:00:00Z,CVE-2020-25275 dovecot: Denial of service via mail MIME parsing,CVE-2020-25275
+2021-01-04T00:00:00Z,CVE-2020-8265 nodejs: use-after-free in the TLS implementation,CVE-2020-8265
+2021-01-04T00:00:00Z,CVE-2020-8287 nodejs: HTTP request smuggling via two copies of a header field in an http request,CVE-2020-8287
+2021-01-03T00:00:00Z,CVE-2020-7071 php: FILTER_VALIDATE_URL accepts URLs with invalid userinfo,CVE-2020-7071
+2021-01-03T00:00:00Z,CVE-2020-35653 python-pillow: decoding a crafted PCX file could result in buffer over-read,CVE-2020-35653
+2021-01-03T00:00:00Z,CVE-2020-35654 python-pillow: decoding crafted YCbCr files could result in heap-based buffer overflow,CVE-2020-35654
+2021-01-03T00:00:00Z,CVE-2020-35655 python-pillow: decoding crafted SGI RLE image files could result in buffer over-read,CVE-2020-35655
+2021-01-02T00:00:00Z,CVE-2020-28851 golang.org/x/text: Panic in language.ParseAcceptLanguage while parsing -u- extension,CVE-2020-28851
+2021-01-02T00:00:00Z,CVE-2020-28852 golang.org/x/text: Panic in language.ParseAcceptLanguage while processing bcp47 tag,CVE-2020-28852
+2021-01-01T00:00:00Z,CVE-2021-20199 podman: Remote traffic to rootless containers is seen as orginating from localhost,CVE-2021-20199
+2021-01-01T00:00:00Z,CVE-2020-17523 shiro: Authentication bypass through specially crafted HTTP request,CVE-2020-17523
+2021-01-01T00:00:00Z,CVE-2021-30155 mediawiki: ContentModelChange does not check if a user has correct permissions to create and set the content model of a nonexistent page,CVE-2021-30155
