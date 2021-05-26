@@ -1,4 +1,8 @@
 public_date,bugzilla_description,CVE
+2021-05-26T00:00:00Z,CVE-2021-22901 curl: Use-after-free in TLS session handling when using OpenSSL TLS backend,CVE-2021-22901
+2021-05-26T00:00:00Z,CVE-2021-22898 curl: TELNET stack contents disclosure,CVE-2021-22898
+2021-05-26T00:00:00Z,CVE-2021-22897 curl: Cipher settings shared for all connections when using schannel TLS backed,CVE-2021-22897
+2021-05-25T00:00:00Z,CVE-2021-23017 nginx: Off-by-one in ngx_resolver_copy() when labels are followed by a pointer to a root domain name,CVE-2021-23017
 2021-05-25T00:00:00Z,CVE-2021-3564 kernel: double free in bluetooth subsystem when the HCI device initialization fails,CVE-2021-3564
 2021-05-25T00:00:00Z,CVE-2021-3565 tpm2-tools: during tpm2_import command invocation a fixed AES wrapping key is used,CVE-2021-3565
 2021-05-24T00:00:00Z,CVE-2021-33516 gupnp: allows DNS rebinding which could result in tricking browser into triggering actions against local UPnP services,CVE-2021-33516
@@ -48,6 +52,7 @@ public_date,bugzilla_description,CVE
 2021-05-11T00:00:00Z,CVE-2020-26145 kernel: accepting plaintext broadcast fragments as full frames,CVE-2020-26145
 2021-05-11T00:00:00Z,CVE-2020-26146 kernel: reassembling encrypted fragments with non-consecutive packet numbers,CVE-2020-26146
 2021-05-11T00:00:00Z,CVE-2020-26147 kernel: reassembling mixed encrypted/plaintext fragments,CVE-2020-26147
+2021-05-11T00:00:00Z,CVE-2021-29509 rubygem-puma: incomplete fix for CVE-2019-16770,CVE-2021-29509
 2021-05-10T17:00:00Z,CVE-2021-3533 ansible: race condition in ansible's async code leading to no_log values disclosure,CVE-2021-3533
 2021-05-10T16:53:00Z,CVE-2021-3532 ansible: async_file sensitive information disclosure,CVE-2021-3532
 2021-05-10T00:00:00Z,"CVE-2021-25736 kubernetes: LoadBalancer Service type don't create a HNS policy for empty or invalid external loadbalancer IP, what could lead to MITM",CVE-2021-25736
@@ -75,6 +80,7 @@ public_date,bugzilla_description,CVE
 2021-05-04T00:00:00Z,CVE-2021-3545 QEMU: vhost-user-gpu: information disclosure due to uninitialized memory read,CVE-2021-3545
 2021-05-04T00:00:00Z,CVE-2021-3546 QEMU: vhost-user-gpu: out-of-bounds write in virgl_cmd_get_capset(),CVE-2021-3546
 2021-05-04T00:00:00Z,CVE-2021-23134 kernel: use-after-free in nfc sockets,CVE-2021-23134
+2021-05-04T00:00:00Z,CVE-2021-29951 Mozilla: Thunderbird Maintenance Service could have been started or stopped by domain users,CVE-2021-29951
 2021-05-03T00:00:00Z,CVE-2021-3504 hivex: Buffer overflow when provided invalid node key length,CVE-2021-3504
 2021-05-01T00:00:00Z,CVE-2021-3537 libxml2: NULL pointer dereference when post-validating mix content parsed in recovery mode,CVE-2021-3537
 2021-04-30T00:00:00Z,CVE-2021-3527 QEMU: usb: unbounded stack allocation in usbredir,CVE-2021-3527
