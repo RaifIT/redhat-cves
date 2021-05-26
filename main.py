@@ -4,21 +4,26 @@ import csv
 
 base_url = "https://access.redhat.com/hydra/rest/securitydata"
 
+'''Query API with specified parameters
+Returns JSON http response'''
 def query_api(params):
     url = base_url + '/cve.json'
     response = requests.get(url, params=params)
     return response
 
-def get_cves_between_dict(start_date, end_date):
-    response = query_api({'after':start_date, 'before':end_date})
-    dict_response = json.loads(response.content)
-    return dict_response
 
+'''Get the CVEs in a specified date range from start_date to end_date as a dictionary
+Returns dict of the JSON response'''
+def get_cves_between_dict(start_date, end_date):
+    return json.loads(get_cves_between(start_date, end_date))
+
+'''Get the CVEs in a specified date range from start_date to end_date as a JSON
+Returns content of the JSON response'''
 def get_cves_between(start_date, end_date):
-    response = query_api({'after':start_date, 'before':end_date})
+    response = query_api({'after': start_date, 'before': end_date})
     return response.content
 
-
+'''Write a python dictionary to a CSV file named cves.csv'''
 def write_dict_list_to_csv(dict_list):
     keys = dict_list[0].keys()
     with open('cves.csv', 'w', newline='')  as output_file:
@@ -26,6 +31,8 @@ def write_dict_list_to_csv(dict_list):
         dict_writer.writeheader()
         dict_writer.writerows(dict_list)
 
+'''Convert a regular API response dict into a dict that groups public_date keys with a list of CVEs
+Returns a dictionary of {public_date: [{bugzilla_description, CVE}, {},...]}'''
 def dict_list_to_timed_dict_list(dict_list):
     timed_dict_list = {}
     for dict in dict_list:
@@ -36,11 +43,12 @@ def dict_list_to_timed_dict_list(dict_list):
             timed_dict_list[dict['public_date']] = [entry]
     return timed_dict_list
 
+'''Returns the number of CVEs in a single entry of a timed_dict. i.e. the number of CVEs on a specific date'''
 def count_cves(timed_dict_entry):
     cves = get_cves(timed_dict_entry)
     return len(cves)
 
-
+'''Returns a set of CVEs a single entry of a timed_dict. i.e. the unique CVEs on a specific date'''
 def get_cves(timed_dict_entry):
     cves = set()
     for dict in timed_dict_entry:
@@ -61,13 +69,14 @@ def test():
     # print(json_dicts[0])
     # print(json_dicts[0]['CVE'])
     for vul in json_dicts:
-        #print(vul['public_date'], vul['CVE'], vul['bugzilla_description'])
-        vuls.append({'public_date':vul['public_date'], 'bugzilla_description':vul['bugzilla_description'], 'CVE': vul['CVE']})
-    #print(vuls)
+        # print(vul['public_date'], vul['CVE'], vul['bugzilla_description'])
+        vuls.append(
+            {'public_date': vul['public_date'], 'bugzilla_description': vul['bugzilla_description'], 'CVE': vul['CVE']})
+    # print(vuls)
     write_dict_list_to_csv(vuls)
     timed_dict = dict_list_to_timed_dict_list(vuls)
-    #print(timed_dict)
-    #print(timed_dict.keys())
+    # print(timed_dict)
+    # print(timed_dict.keys())
     print(timed_dict['2021-05-25T00:00:00Z'])
     print(get_cves(timed_dict['2021-05-25T00:00:00Z']))
     print(count_cves(timed_dict['2021-05-25T00:00:00Z']))
