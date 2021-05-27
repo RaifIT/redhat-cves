@@ -64,7 +64,7 @@ def get_cves(timed_dict_entry):
 
 '''Aggregate the results in a timed_dict by date
 Returns a list of dictionaries of {public_date, cve_count}'''
-def aggregate_timed_dict(timed_dict):
+def aggregate_timed_dict_list(timed_dict):
     aggregated_dict = []
     for public_date, dict in timed_dict.items():
         aggregated_dict.append({'public_date': public_date, 'cve_count': count_cves(dict)})
@@ -75,6 +75,18 @@ def aggregate_timed_dict(timed_dict):
 def aggregated_to_csv(aggregated_dict):
     with open('cves.csv', 'w', newline='')  as output_file:
         csv
+
+
+'''Get the total number of CVEs in a specific time-period
+Returns the number of CVEs from start_date to end_date'''
+def count_cves_between(start_date, end_date):
+    cve_dict = get_cves_between_dict(start_date, end_date)
+    cve_timed_dict = dict_list_to_timed_dict_list(cve_dict)
+    cve_aggregated_timed_dict = aggregate_timed_dict_list(cve_timed_dict)
+    total_cve_count = 0
+    for dict in cve_aggregated_timed_dict:
+        total_cve_count += dict['cve_count']
+    return total_cve_count
 
 
 def test():
@@ -101,9 +113,10 @@ def test():
     print(timed_dict['2021-05-25T00:00:00Z'])
     print(get_cves(timed_dict['2021-05-25T00:00:00Z']))
     print(count_cves(timed_dict['2021-05-25T00:00:00Z']))
-    print(aggregate_timed_dict(timed_dict))
-    print(aggregate_timed_dict(timed_dict)[0])
-    print(aggregate_timed_dict(timed_dict)[0].keys())
-    write_dict_list_to_csv(aggregate_timed_dict(timed_dict), 'aggregated')
+    print(aggregate_timed_dict_list(timed_dict))
+    print(aggregate_timed_dict_list(timed_dict)[0])
+    print(aggregate_timed_dict_list(timed_dict)[0].keys())
+    write_dict_list_to_csv(aggregate_timed_dict_list(timed_dict), 'aggregated')
+    print('Total CVEs : ', count_cves_between(start, end))
 
 test()

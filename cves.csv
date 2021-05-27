@@ -1,10 +1,17 @@
 public_date,bugzilla_description,CVE
+2021-05-26T00:00:00Z,CVE-2021-31917 Infinispan: Authentication bypass on REST endpoints when using DIGEST authentication mechanism,CVE-2021-31917
 2021-05-26T00:00:00Z,CVE-2021-22901 curl: Use-after-free in TLS session handling when using OpenSSL TLS backend,CVE-2021-22901
 2021-05-26T00:00:00Z,CVE-2021-22898 curl: TELNET stack contents disclosure,CVE-2021-22898
 2021-05-26T00:00:00Z,CVE-2021-22897 curl: Cipher settings shared for all connections when using schannel TLS backed,CVE-2021-22897
 2021-05-25T00:00:00Z,CVE-2021-23017 nginx: Off-by-one in ngx_resolver_copy() when labels are followed by a pointer to a root domain name,CVE-2021-23017
 2021-05-25T00:00:00Z,CVE-2021-3564 kernel: double free in bluetooth subsystem when the HCI device initialization fails,CVE-2021-3564
 2021-05-25T00:00:00Z,CVE-2021-3565 tpm2-tools: during tpm2_import command invocation a fixed AES wrapping key is used,CVE-2021-3565
+2021-05-24T16:00:00Z,CVE-2020-26555 kernel: Bluetooth BR/EDR PIN Pairing procedure is vulnerable to an impersonation attack,CVE-2020-26555
+2021-05-24T16:00:00Z,CVE-2020-26558 kernel: Passkey Entry protocol of the Bluetooth Core is vulnerable to an impersonation attack,CVE-2020-26558
+2021-05-24T16:00:00Z,CVE-2020-26560 kernel: impersonation attack in Bluetooth Mesh Provisioning,CVE-2020-26560
+2021-05-24T16:00:00Z,CVE-2020-26557 kernel: predictable Authvalue in Bluetooth Mesh Provisioning Leads to MITM,CVE-2020-26557
+2021-05-24T16:00:00Z,CVE-2020-26559 kernel: Authvalue leak in Bluetooth Mesh Provisioning,CVE-2020-26559
+2021-05-24T16:00:00Z,CVE-2020-26556 kernel: malleable commitment Bluetooth Mesh Provisioning,CVE-2020-26556
 2021-05-24T00:00:00Z,CVE-2021-33516 gupnp: allows DNS rebinding which could result in tricking browser into triggering actions against local UPnP services,CVE-2021-33516
 2021-05-21T00:00:00Z,CVE-2021-31440 kernel: local escalation of privileges in handling of eBPF programs,CVE-2021-31440
 2021-05-21T00:00:00Z,CVE-2021-33502 normalize-url: ReDoS for data URLs,CVE-2021-33502
